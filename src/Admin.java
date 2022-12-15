@@ -27,6 +27,7 @@ public class Admin extends Utilisateur {
 
     @objid ("7edef8e4-d121-4c23-97da-d8dfde220f36")
     public void ajouterRoleUtilisateur() {
+        
     }
 
 }

@@ -17,9 +17,6 @@ public class Commande {
     @objid ("704e2242-8abd-43ed-a0f4-4ad805e884b4")
     public int montant;
 
-    @objid ("2ec51df0-5b1f-47e1-8524-7b3ffc6fceaa")
-    public List<Produit> etreconstituer = new ArrayList<Produit> ();
-
     @objid ("f023b4f6-f921-4c9a-9d9a-dbd2281bdf92")
     public Facture concerner;
 

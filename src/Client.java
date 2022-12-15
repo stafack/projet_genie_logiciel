@@ -10,9 +10,6 @@ public class Client extends Utilisateur {
     @objid ("a53743eb-2810-4e30-9cc7-e89ee3483a12")
     public List<Commande> passer = new ArrayList<Commande> ();
 
-    @objid ("0e90c8bb-f41f-4bca-b92b-f053ebba25c5")
-    public List<Panier> gerer = new ArrayList<Panier> ();
-
     @objid ("c16b3bf2-a4ca-4467-b1e2-80992ff76133")
     String getIdclient() {
         // Automatically generated method. Please delete this comment before entering specific code.
