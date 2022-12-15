@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaExtensions="http:///schemas/JavaExtensions/_dZxGYHtBEe24h7PPGeyHmw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://schema.omg.org/spec/UML/2.1.1" xmi:version="2.1" xsi:schemaLocation="http://www.eclipse.org/uml2/3.0.0/UML http://schema.omg.org/spec/UML/2.1.1 http:///schemas/JavaExtensions/_dZxGYHtBEe24h7PPGeyHmw/0 JavaExtensions.profile.uml#_da-nV3tBEe24h7PPGeyHmw">
+  <uml:Model xmi:id="_dY_DQHtBEe24h7PPGeyHmw" name="diagramme de classe">
+    <eAnnotations xmi:id="_dY_DQXtBEe24h7PPGeyHmw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_dY_DQntBEe24h7PPGeyHmw" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DQ3tBEe24h7PPGeyHmw" value="3.0.0"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_dY_DRHtBEe24h7PPGeyHmw" name="isRoundTrip"/>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dY_DRXtBEe24h7PPGeyHmw" name="Admin">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_dY_DRntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_DR3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_DSHtBEe24h7PPGeyHmw" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DSXtBEe24h7PPGeyHmw" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <generalization xmi:type="uml:Generalization" xmi:id="_dY_DSntBEe24h7PPGeyHmw" general="_dZA413tBEe24h7PPGeyHmw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_DS3tBEe24h7PPGeyHmw" name="effectuer" visibility="public" type="_dY_q7ntBEe24h7PPGeyHmw" isUnique="false" association="_dY_qXXtBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_DTHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_DTXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DTntBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_DT3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DUHtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_DUXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DUntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_DU3tBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_DVHtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_DVXtBEe24h7PPGeyHmw" name="gerer" visibility="public" type="_dZA413tBEe24h7PPGeyHmw" isUnique="false" association="_dY_qZntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_DVntBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_DV3tBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DWHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_DWXtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DWntBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_DW3tBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DXHtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_DXXtBEe24h7PPGeyHmw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_DXntBEe24h7PPGeyHmw" name="idadmin" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_DX3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_DYHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DYXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_DYntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DY3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_DZHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DZXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_DZntBEe24h7PPGeyHmw" name="getIdadmin" visibility="package" clientDependency="_dY_qb3tBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_DZ3tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_DaHtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_DaXtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DantBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_Da3tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_DbHtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_DbXtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_DbntBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idadmin;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_qUHtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_qUXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qUntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qU3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_qVHtBEe24h7PPGeyHmw" name="setIdadmin" visibility="package" clientDependency="_dY_qcHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_qVXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_qVntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_qV3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qWHtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idadmin = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_qWXtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_qWntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qW3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qXHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dY_qXXtBEe24h7PPGeyHmw" memberEnd="_dY_DS3tBEe24h7PPGeyHmw _dY_qXntBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dY_qXntBEe24h7PPGeyHmw" visibility="public" type="_dY_DRXtBEe24h7PPGeyHmw" isUnique="false" association="_dY_qXXtBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_qX3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qYHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qYXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qYntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qY3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qZHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qZXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dY_qZntBEe24h7PPGeyHmw" memberEnd="_dY_DVXtBEe24h7PPGeyHmw _dY_qZ3tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dY_qZ3tBEe24h7PPGeyHmw" visibility="public" type="_dY_DRXtBEe24h7PPGeyHmw" isUnique="false" association="_dY_qZntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_qaHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qaXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qantBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qa3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qbHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qbXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qbntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_qb3tBEe24h7PPGeyHmw" name="" supplier="_dY_DXntBEe24h7PPGeyHmw" client="_dY_DZntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_qcHtBEe24h7PPGeyHmw" name="" supplier="_dY_DXntBEe24h7PPGeyHmw" client="_dY_qVHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dY_qcXtBEe24h7PPGeyHmw" name="Vendeur">
+      <generalization xmi:type="uml:Generalization" xmi:id="_dY_qcntBEe24h7PPGeyHmw" general="_dZA413tBEe24h7PPGeyHmw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_qc3tBEe24h7PPGeyHmw" name="gerer" visibility="public" type="_dZARrntBEe24h7PPGeyHmw" isUnique="false" association="_dY_qm3tBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_qdHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qdXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qdntBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qd3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qeHtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qeXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qentBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_qe3tBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qfHtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_qfXtBEe24h7PPGeyHmw" name="idvendeur" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_qfntBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qf3tBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qgHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qgXtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qgntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qg3tBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qhHtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_qhXtBEe24h7PPGeyHmw" name="getIdvendeur" visibility="package" clientDependency="_dY_qpHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_qhntBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_qh3tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_qiHtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qiXtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_qintBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_qi3tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_qjHtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qjXtBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idvendeur;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_qjntBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_qj3tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qkHtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qkXtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_qkntBEe24h7PPGeyHmw" name="setIdvendeur" visibility="package" clientDependency="_dY_qpXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_qk3tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_qlHtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_qlXtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qlntBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idvendeur = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_ql3tBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_qmHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qmXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qmntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dY_qm3tBEe24h7PPGeyHmw" memberEnd="_dY_qc3tBEe24h7PPGeyHmw _dY_qnHtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dY_qnHtBEe24h7PPGeyHmw" visibility="public" type="_dY_qcXtBEe24h7PPGeyHmw" isUnique="false" association="_dY_qm3tBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_qnXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qnntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qn3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qoHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qoXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qontBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qo3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_qpHtBEe24h7PPGeyHmw" name="" supplier="_dY_qfXtBEe24h7PPGeyHmw" client="_dY_qhXtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_qpXtBEe24h7PPGeyHmw" name="" supplier="_dY_qfXtBEe24h7PPGeyHmw" client="_dY_qkntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dY_qpntBEe24h7PPGeyHmw" name="Client">
+      <generalization xmi:type="uml:Generalization" xmi:id="_dY_qp3tBEe24h7PPGeyHmw" general="_dZA413tBEe24h7PPGeyHmw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_qqHtBEe24h7PPGeyHmw" name="passer" visibility="public" type="_dY_rcntBEe24h7PPGeyHmw" isUnique="false" association="_dY_q2ntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_qqXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qqntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qq3tBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qrHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qrXtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qrntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qr3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_qsHtBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qsXtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_qsntBEe24h7PPGeyHmw" name="gerer" visibility="public" type="_dY_rC3tBEe24h7PPGeyHmw" isUnique="false" association="_dY_q43tBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_qs3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qtHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qtXtBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qtntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qt3tBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_quHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_quXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_quntBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qu3tBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_qvHtBEe24h7PPGeyHmw" name="idclient" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_qvXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_qvntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qv3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qwHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qwXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_qwntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qw3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_qxHtBEe24h7PPGeyHmw" name="getIdclient" visibility="package" clientDependency="_dY_q7HtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_qxXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_qxntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_qx3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qyHtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_qyXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_qyntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_qy3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_qzHtBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idclient;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_qzXtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_qzntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_qz3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q0HtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_q0XtBEe24h7PPGeyHmw" name="setIdclient" visibility="package" clientDependency="_dY_q7XtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_q0ntBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_q03tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_q1HtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q1XtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idclient = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_q1ntBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_q13tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_q2HtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q2XtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dY_q2ntBEe24h7PPGeyHmw" memberEnd="_dY_qqHtBEe24h7PPGeyHmw _dY_q23tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dY_q23tBEe24h7PPGeyHmw" visibility="public" type="_dY_qpntBEe24h7PPGeyHmw" isUnique="false" association="_dY_q2ntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_q3HtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_q3XtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q3ntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_q33tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q4HtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_q4XtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q4ntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dY_q43tBEe24h7PPGeyHmw" memberEnd="_dY_qsntBEe24h7PPGeyHmw _dY_q5HtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dY_q5HtBEe24h7PPGeyHmw" visibility="public" type="_dY_qpntBEe24h7PPGeyHmw" isUnique="false" association="_dY_q43tBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_q5XtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_q5ntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q53tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_q6HtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q6XtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_q6ntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q63tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_q7HtBEe24h7PPGeyHmw" name="" supplier="_dY_qvHtBEe24h7PPGeyHmw" client="_dY_qxHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_q7XtBEe24h7PPGeyHmw" name="" supplier="_dY_qvHtBEe24h7PPGeyHmw" client="_dY_q0XtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dY_q7ntBEe24h7PPGeyHmw" name="Livraison">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_q73tBEe24h7PPGeyHmw" name="idliv" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_q8HtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_q8XtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q8ntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_q83tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q9HtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_q9XtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q9ntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_q93tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_q-HtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_q-XtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q-ntBEe24h7PPGeyHmw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_q-3tBEe24h7PPGeyHmw" name="dateliv" visibility="public" type="_dZA5RHtBEe24h7PPGeyHmw" isUnique="false">
+        <eAnnotations xmi:id="_dY_q_HtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_q_XtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_q_ntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_q_3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rAHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rAXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rAntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rA3tBEe24h7PPGeyHmw" name="modeliv" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dY_rBHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rBXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rBntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rB3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rCHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rCXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rCntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dY_rC3tBEe24h7PPGeyHmw" name="Panier">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rDHtBEe24h7PPGeyHmw" name="contenir" visibility="public" type="_dZARrntBEe24h7PPGeyHmw" isUnique="false" association="_dY_rMntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_rDXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rDntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rD3tBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rEHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rEXtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rEntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rE3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_rFHtBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_rFXtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rFntBEe24h7PPGeyHmw" name="idpan" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_rF3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rGHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rGXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rGntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rG3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rHHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rHXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rHntBEe24h7PPGeyHmw" name="etatpan" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dY_rH3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rIHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rIXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rIntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rI3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rJHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rJXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rJntBEe24h7PPGeyHmw" name="totalpan" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dY_rJ3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rKHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rKXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rKntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rK3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rLHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rLXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_rLntBEe24h7PPGeyHmw" name="AjouterPan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_rL3tBEe24h7PPGeyHmw" name="CreerPan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_rMHtBEe24h7PPGeyHmw" name="ViderPan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_rMXtBEe24h7PPGeyHmw" name="ConsulterPan" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dY_rMntBEe24h7PPGeyHmw" memberEnd="_dY_rDHtBEe24h7PPGeyHmw _dY_rM3tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dY_rM3tBEe24h7PPGeyHmw" visibility="public" type="_dY_rC3tBEe24h7PPGeyHmw" isUnique="false" association="_dY_rMntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_rNHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rNXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rNntBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rN3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rOHtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rOXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rOntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_rO3tBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_rPHtBEe24h7PPGeyHmw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dY_rPXtBEe24h7PPGeyHmw" name="Facture">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rPntBEe24h7PPGeyHmw" name="idfact" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_rP3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rQHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rQXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rQntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rQ3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rRHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rRXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_rRntBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_rR3tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_rSHtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rSXtBEe24h7PPGeyHmw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rSntBEe24h7PPGeyHmw" name="date" visibility="public" type="_dZA5RHtBEe24h7PPGeyHmw" isUnique="false">
+        <eAnnotations xmi:id="_dY_rS3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rTHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rTXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rTntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rT3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rUHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rUXtBEe24h7PPGeyHmw" value="no_access"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rUntBEe24h7PPGeyHmw" name="remise" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dY_rU3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rVHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rVXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rVntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rV3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rWHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rWXtBEe24h7PPGeyHmw" value="no_access"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_rWntBEe24h7PPGeyHmw" name="getIdfact" visibility="package" clientDependency="_dY_rcHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_rW3tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_rXHtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_rXXtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rXntBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_rX3tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_rYHtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_rYXtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rYntBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idfact;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_rY3tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_rZHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_rZXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rZntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_rZ3tBEe24h7PPGeyHmw" name="setIdfact" visibility="package" clientDependency="_dY_rcXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_raHtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_raXtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_rantBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_ra3tBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idfact = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_rbHtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_rbXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_rbntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rb3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_rcHtBEe24h7PPGeyHmw" name="" supplier="_dY_rPntBEe24h7PPGeyHmw" client="_dY_rWntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dY_rcXtBEe24h7PPGeyHmw" name="" supplier="_dY_rPntBEe24h7PPGeyHmw" client="_dY_rZ3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dY_rcntBEe24h7PPGeyHmw" name="Commande">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rc3tBEe24h7PPGeyHmw" name="etreconstituer" visibility="public" type="_dZARrntBEe24h7PPGeyHmw" isUnique="false" association="_dZARgntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_rdHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rdXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rdntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rd3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_reHtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_reXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rentBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_re3tBEe24h7PPGeyHmw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rfHtBEe24h7PPGeyHmw" name="posseder" visibility="public" type="_dY_rPXtBEe24h7PPGeyHmw" isUnique="false" association="_dZARjHtBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_rfXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rfntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rf3tBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rgHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rgXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rgntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rg3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_rhHtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_rhXtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_rhntBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rh3tBEe24h7PPGeyHmw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_riHtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_riXtBEe24h7PPGeyHmw" name="concerner" visibility="public" type="_dY_q7ntBEe24h7PPGeyHmw" isUnique="false" association="_dZARlXtBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_rintBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_ri3tBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rjHtBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rjXtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rjntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rj3tBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rkHtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_rkXtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rkntBEe24h7PPGeyHmw" name="payerpar" visibility="public" type="_dZA4nntBEe24h7PPGeyHmw" isUnique="false" association="_dZARnntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dY_rk3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rlHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rlXtBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rlntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rl3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rmHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rmXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_rmntBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rm3tBEe24h7PPGeyHmw" name="idcmd" visibility="private">
+        <eAnnotations xmi:id="_dY_rnHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rnXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rnntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rn3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_roHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_roXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rontBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_ro3tBEe24h7PPGeyHmw" name="idclient" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_rpHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rpXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rpntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rp3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rqHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rqXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rqntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rq3tBEe24h7PPGeyHmw" name="idprd" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dY_rrHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rrXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rrntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rr3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rsHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rsXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rsntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rs3tBEe24h7PPGeyHmw" name="date" visibility="public" type="_dZA5RHtBEe24h7PPGeyHmw" isUnique="false">
+        <eAnnotations xmi:id="_dY_rtHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rtXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rtntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rt3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_ruHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_ruXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_runtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_ru3tBEe24h7PPGeyHmw" name="qte" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dY_rvHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rvXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rvntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rv3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rwHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rwXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rwntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dY_rw3tBEe24h7PPGeyHmw" name="montant" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dY_rxHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dY_rxXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_rxntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_rx3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_ryHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dY_ryXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_ryntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_ry3tBEe24h7PPGeyHmw" name="SommeTotalProd" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_rzHtBEe24h7PPGeyHmw" name="getIdcmd" visibility="package" clientDependency="_dZARqHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_rzXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_rzntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_rz3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_r0HtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_r0XtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_r0ntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_r03tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_r1HtBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idcmd;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_r1XtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_r1ntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_r13tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_r2HtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_r2XtBEe24h7PPGeyHmw" name="setIdcmd" visibility="package" clientDependency="_dZARqXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_r2ntBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_r23tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_r3HtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_r3XtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idcmd = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_r3ntBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dY_r33tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dY_r4HtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_r4XtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dY_r4ntBEe24h7PPGeyHmw" name="getIdclient" visibility="package" clientDependency="_dZARqntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_r43tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_r5HtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_r5XtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_r5ntBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dY_r53tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dY_r6HtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dY_r6XtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dY_r6ntBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idclient;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dY_r63tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZARYHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZARYXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARYntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZARY3tBEe24h7PPGeyHmw" name="setIdclient" visibility="package" clientDependency="_dZARq3tBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZARZHtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZARZXtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZARZntBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARZ3tBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idclient = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZARaHtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZARaXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZARantBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARa3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZARbHtBEe24h7PPGeyHmw" name="getIdprd" visibility="package" clientDependency="_dZARrHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZARbXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZARbntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZARb3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARcHtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZARcXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZARcntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZARc3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARdHtBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idprd;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZARdXtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZARdntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZARd3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAReHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAReXtBEe24h7PPGeyHmw" name="setIdprd" visibility="package" clientDependency="_dZARrXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZARentBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZARe3tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZARfHtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARfXtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idprd = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZARfntBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZARf3tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZARgHtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARgXtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dZARgntBEe24h7PPGeyHmw" memberEnd="_dY_rc3tBEe24h7PPGeyHmw _dZARg3tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dZARg3tBEe24h7PPGeyHmw" visibility="public" type="_dY_rcntBEe24h7PPGeyHmw" isUnique="false" association="_dZARgntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dZARhHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARhXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARhntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARh3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARiHtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARiXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARintBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZARi3tBEe24h7PPGeyHmw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dZARjHtBEe24h7PPGeyHmw" memberEnd="_dY_rfHtBEe24h7PPGeyHmw _dZARjXtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dZARjXtBEe24h7PPGeyHmw" visibility="public" type="_dY_rcntBEe24h7PPGeyHmw" isUnique="false" association="_dZARjHtBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dZARjntBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARj3tBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARkHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARkXtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARkntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARk3tBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARlHtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dZARlXtBEe24h7PPGeyHmw" memberEnd="_dY_riXtBEe24h7PPGeyHmw _dZARlntBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dZARlntBEe24h7PPGeyHmw" visibility="public" type="_dY_rcntBEe24h7PPGeyHmw" isUnique="false" association="_dZARlXtBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dZARl3tBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARmHtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARmXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARmntBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARm3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARnHtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARnXtBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dZARnntBEe24h7PPGeyHmw" memberEnd="_dY_rkntBEe24h7PPGeyHmw _dZARn3tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dZARn3tBEe24h7PPGeyHmw" visibility="public" type="_dY_rcntBEe24h7PPGeyHmw" isUnique="false" association="_dZARnntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dZARoHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARoXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARontBEe24h7PPGeyHmw" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARo3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARpHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARpXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARpntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZARp3tBEe24h7PPGeyHmw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZARqHtBEe24h7PPGeyHmw" name="" supplier="_dY_rm3tBEe24h7PPGeyHmw" client="_dY_rzHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZARqXtBEe24h7PPGeyHmw" name="" supplier="_dY_rm3tBEe24h7PPGeyHmw" client="_dY_r2XtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZARqntBEe24h7PPGeyHmw" name="" supplier="_dY_ro3tBEe24h7PPGeyHmw" client="_dY_r4ntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZARq3tBEe24h7PPGeyHmw" name="" supplier="_dY_ro3tBEe24h7PPGeyHmw" client="_dZARY3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZARrHtBEe24h7PPGeyHmw" name="" supplier="_dY_rq3tBEe24h7PPGeyHmw" client="_dZARbHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZARrXtBEe24h7PPGeyHmw" name="" supplier="_dY_rq3tBEe24h7PPGeyHmw" client="_dZAReXtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dZARrntBEe24h7PPGeyHmw" name="Produit">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZARr3tBEe24h7PPGeyHmw" name="appartenir" visibility="public" type="_dZA4cntBEe24h7PPGeyHmw" isUnique="false" association="_dZAR8ntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dZARsHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARsXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARsntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARs3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARtHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARtXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARtntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZARt3tBEe24h7PPGeyHmw" name="idprod" visibility="private">
+        <eAnnotations xmi:id="_dZARuHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARuXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARuntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARu3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARvHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARvXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARvntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZARv3tBEe24h7PPGeyHmw" name="nom" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dZARwHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARwXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARwntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARw3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARxHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARxXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARxntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZARx3tBEe24h7PPGeyHmw" name="prix.u" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dZARyHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZARyXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARyntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARy3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARzHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZARzXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZARzntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZARz3tBEe24h7PPGeyHmw" name="description" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dZAR0HtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZAR0XtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR0ntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZAR03tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR1HtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZAR1XtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR1ntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAR13tBEe24h7PPGeyHmw" name="ListerProd" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAR2HtBEe24h7PPGeyHmw" name="Ajouter" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAR2XtBEe24h7PPGeyHmw" name="Rechercher" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAR2ntBEe24h7PPGeyHmw" name="Modifier" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAR23tBEe24h7PPGeyHmw" name="Supprimer" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAR3HtBEe24h7PPGeyHmw" name="getIdprod" visibility="package" clientDependency="_dZA4cHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZAR3XtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZAR3ntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZAR33tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR4HtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZAR4XtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZAR4ntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZAR43tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR5HtBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idprod;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZAR5XtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZAR5ntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZAR53tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR6HtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZAR6XtBEe24h7PPGeyHmw" name="setIdprod" visibility="package" clientDependency="_dZA4cXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZAR6ntBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZAR63tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZAR7HtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR7XtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idprod = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZAR7ntBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZAR73tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZAR8HtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR8XtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dZAR8ntBEe24h7PPGeyHmw" memberEnd="_dZARr3tBEe24h7PPGeyHmw _dZAR83tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dZAR83tBEe24h7PPGeyHmw" visibility="public" type="_dZARrntBEe24h7PPGeyHmw" isUnique="false" association="_dZAR8ntBEe24h7PPGeyHmw">
+        <eAnnotations xmi:id="_dZAR9HtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZAR9XtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR9ntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZAR93tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR-HtBEe24h7PPGeyHmw" value="*"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZAR-XtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZAR-ntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZAR-3tBEe24h7PPGeyHmw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA4cHtBEe24h7PPGeyHmw" name="" supplier="_dZARt3tBEe24h7PPGeyHmw" client="_dZAR3HtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA4cXtBEe24h7PPGeyHmw" name="" supplier="_dZARt3tBEe24h7PPGeyHmw" client="_dZAR6XtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dZA4cntBEe24h7PPGeyHmw" name="Categorie">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA4c3tBEe24h7PPGeyHmw" name="idcat" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dZA4dHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA4dXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4dntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4d3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4eHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4eXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4entBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA4e3tBEe24h7PPGeyHmw" name="nomcat" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dZA4fHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA4fXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4fntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4f3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4gHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4gXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4gntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA4g3tBEe24h7PPGeyHmw" name="AjouterCat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA4hHtBEe24h7PPGeyHmw" name="SupprimerCat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA4hXtBEe24h7PPGeyHmw" name="ListerCat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA4hntBEe24h7PPGeyHmw" name="getIdcat" visibility="package" clientDependency="_dZA4nHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA4h3tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA4iHtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA4iXtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4intBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA4i3tBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA4jHtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA4jXtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4jntBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idcat;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZA4j3tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZA4kHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZA4kXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4kntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA4k3tBEe24h7PPGeyHmw" name="setIdcat" visibility="package" clientDependency="_dZA4nXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA4lHtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA4lXtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA4lntBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4l3tBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idcat = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZA4mHtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZA4mXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZA4mntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4m3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA4nHtBEe24h7PPGeyHmw" name="" supplier="_dZA4c3tBEe24h7PPGeyHmw" client="_dZA4hntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA4nXtBEe24h7PPGeyHmw" name="" supplier="_dZA4c3tBEe24h7PPGeyHmw" client="_dZA4k3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dZA4nntBEe24h7PPGeyHmw" name="Carte">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA4n3tBEe24h7PPGeyHmw" name="idcart" visibility="private" isUnique="false">
+        <eAnnotations xmi:id="_dZA4oHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA4oXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4ontBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4o3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4pHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4pXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4pntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA4p3tBEe24h7PPGeyHmw" name="code" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dZA4qHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA4qXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4qntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4q3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4rHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4rXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4rntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA4r3tBEe24h7PPGeyHmw" name="password" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dZA4sHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA4sXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4sntBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4s3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4tHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4tXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4tntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA4t3tBEe24h7PPGeyHmw" name="montant" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_dZA4uHtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA4uXtBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4untBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4u3tBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4vHtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4vXtBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4vntBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA4v3tBEe24h7PPGeyHmw" name="getIdcart" visibility="package" clientDependency="_dZA41XtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA4wHtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA4wXtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA4wntBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4w3tBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA4xHtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA4xXtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA4xntBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4x3tBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.idcart;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZA4yHtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZA4yXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZA4yntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4y3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA4zHtBEe24h7PPGeyHmw" name="setIdcart" visibility="package" clientDependency="_dZA41ntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA4zXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA4zntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA4z3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA40HtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idcart = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZA40XtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZA40ntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZA403tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA41HtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA41XtBEe24h7PPGeyHmw" name="" supplier="_dZA4n3tBEe24h7PPGeyHmw" client="_dZA4v3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA41ntBEe24h7PPGeyHmw" name="" supplier="_dZA4n3tBEe24h7PPGeyHmw" client="_dZA4zHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dZA413tBEe24h7PPGeyHmw" name="Personne">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA42HtBEe24h7PPGeyHmw" name="id" visibility="private">
+        <eAnnotations xmi:id="_dZA42XtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA42ntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA423tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA43HtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA43XtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA43ntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA433tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA44HtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA44XtBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA44ntBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA443tBEe24h7PPGeyHmw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA45HtBEe24h7PPGeyHmw" name="Nom" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA45XtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA45ntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA453tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA46HtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA46XtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA46ntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA463tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA47HtBEe24h7PPGeyHmw" name="Prenom" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA47XtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA47ntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA473tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA48HtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA48XtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA48ntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA483tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA49HtBEe24h7PPGeyHmw" name="Adresse" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA49XtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA49ntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA493tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4-HtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4-XtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA4-ntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4-3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA4_HtBEe24h7PPGeyHmw" name="Telephone" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA4_XtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA4_ntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA4_3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5AHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5AXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5AntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5A3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA5BHtBEe24h7PPGeyHmw" name="Sexe" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA5BXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA5BntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5B3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5CHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5CXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5CntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5C3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA5DHtBEe24h7PPGeyHmw" name="Password" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA5DXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA5DntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5D3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5EHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5EXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5EntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5E3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA5FHtBEe24h7PPGeyHmw" name="Mail" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA5FXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA5FntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5F3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5GHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5GXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5GntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5G3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dZA5HHtBEe24h7PPGeyHmw" name="Ville" visibility="protected" isUnique="false">
+        <eAnnotations xmi:id="_dZA5HXtBEe24h7PPGeyHmw" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_dZA5HntBEe24h7PPGeyHmw" name="MultiMin">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5H3tBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5IHtBEe24h7PPGeyHmw" name="MultiMax">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5IXtBEe24h7PPGeyHmw" value="1"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_dZA5IntBEe24h7PPGeyHmw" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5I3tBEe24h7PPGeyHmw" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA5JHtBEe24h7PPGeyHmw" name="Ajouter" visibility="protected">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA5JXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA5JntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA5J3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5KHtBEe24h7PPGeyHmw" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA5KXtBEe24h7PPGeyHmw" name="Modifier" visibility="protected"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA5KntBEe24h7PPGeyHmw" name="Supprimer" visibility="protected"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA5K3tBEe24h7PPGeyHmw" name="Lister" visibility="protected"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA5LHtBEe24h7PPGeyHmw" name="getId" visibility="package" clientDependency="_dZA5QntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA5LXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA5LntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA5L3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5MHtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA5MXtBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA5MntBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA5M3tBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5NHtBEe24h7PPGeyHmw" value="JavaReturned"/>
+            </contents>
+          </eAnnotations>
+          <body>return this.id;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZA5NXtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZA5NntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZA5N3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5OHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZA5OXtBEe24h7PPGeyHmw" name="setId" visibility="package" clientDependency="_dZA5Q3tBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dZA5OntBEe24h7PPGeyHmw">
+          <eAnnotations xmi:id="_dZA5O3tBEe24h7PPGeyHmw" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_dZA5PHtBEe24h7PPGeyHmw" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5PXtBEe24h7PPGeyHmw" value="JavaCode"/>
+            </contents>
+          </eAnnotations>
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.id = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_dZA5PntBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZA5P3tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZA5QHtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_dZA5QXtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA5QntBEe24h7PPGeyHmw" name="" supplier="_dZA42HtBEe24h7PPGeyHmw" client="_dZA5LHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dZA5Q3tBEe24h7PPGeyHmw" name="" supplier="_dZA42HtBEe24h7PPGeyHmw" client="_dZA5OXtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_dZA5RHtBEe24h7PPGeyHmw" name="date"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:applyingPackage="_dY_DQHtBEe24h7PPGeyHmw" xmi:id="_dlIB0HtBEe24h7PPGeyHmw">
+      <eAnnotations xmi:id="_dlKeEHtBEe24h7PPGeyHmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JavaExtensions.profile.uml#_da-nV3tBEe24h7PPGeyHmw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" xmi:applyingPackage="_dlIB0HtBEe24h7PPGeyHmw" href="JavaExtensions.profile.uml#_da-nUHtBEe24h7PPGeyHmw"/>
+    </profileApplication>
+  </uml:Model>
+  <JavaExtensions:JavaClass xmi:id="_dlU2IHtBEe24h7PPGeyHmw" base_Class="_dY_DRXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlU2IXtBEe24h7PPGeyHmw" base_Operation="_dY_DZntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlVdMHtBEe24h7PPGeyHmw" base_Dependency="_dY_qb3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlVdMXtBEe24h7PPGeyHmw" base_Operation="_dY_qVHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlWEQHtBEe24h7PPGeyHmw" base_Dependency="_dY_qcHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlWEQXtBEe24h7PPGeyHmw" base_Class="_dY_qcXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlWEQntBEe24h7PPGeyHmw" base_Operation="_dY_qhXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlWrUHtBEe24h7PPGeyHmw" base_Dependency="_dY_qpHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlWrUXtBEe24h7PPGeyHmw" base_Operation="_dY_qkntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlWrUntBEe24h7PPGeyHmw" base_Dependency="_dY_qpXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlWrU3tBEe24h7PPGeyHmw" base_Class="_dY_qpntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlXSYHtBEe24h7PPGeyHmw" base_Operation="_dY_qxHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlXSYXtBEe24h7PPGeyHmw" base_Dependency="_dY_q7HtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlXSYntBEe24h7PPGeyHmw" base_Operation="_dY_q0XtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlXSY3tBEe24h7PPGeyHmw" base_Dependency="_dY_q7XtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlX5cHtBEe24h7PPGeyHmw" base_Class="_dY_q7ntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlX5cXtBEe24h7PPGeyHmw" base_Class="_dY_rC3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlX5cntBEe24h7PPGeyHmw" base_Class="_dY_rPXtBEe24h7PPGeyHmw">
+    <JavaImport>java.util.Date</JavaImport>
+  </JavaExtensions:JavaClass>
+  <JavaExtensions:StandardAttribute xmi:id="_dlZuoHtBEe24h7PPGeyHmw" base_Property="_dY_rPntBEe24h7PPGeyHmw" JavaTypeExpr="String"/>
+  <JavaExtensions:StandardFeature xmi:id="_dlZuoXtBEe24h7PPGeyHmw" base_Feature="_dY_rPntBEe24h7PPGeyHmw" JavaNoInitValue="true"/>
+  <JavaExtensions:StandardAttribute xmi:id="_dlaVsHtBEe24h7PPGeyHmw" base_Property="_dY_rSntBEe24h7PPGeyHmw" JavaTypeExpr="Date"/>
+  <JavaExtensions:StandardFeature xmi:id="_dla8wHtBEe24h7PPGeyHmw" base_Feature="_dY_rSntBEe24h7PPGeyHmw" JavaNoInitValue="true"/>
+  <JavaExtensions:StandardFeature xmi:id="_dla8wXtBEe24h7PPGeyHmw" base_Feature="_dY_rUntBEe24h7PPGeyHmw" JavaNoInitValue="true"/>
+  <JavaExtensions:JavaGetter xmi:id="_dla8wntBEe24h7PPGeyHmw" base_Operation="_dY_rWntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlbj0HtBEe24h7PPGeyHmw" base_Dependency="_dY_rcHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:StandardParameter xmi:id="_dlbj0XtBEe24h7PPGeyHmw" base_Parameter="_dY_rY3tBEe24h7PPGeyHmw" JavaTypeExpr="String"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlcK4HtBEe24h7PPGeyHmw" base_Operation="_dY_rZ3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlcx8HtBEe24h7PPGeyHmw" base_Dependency="_dY_rcXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:StandardParameter xmi:id="_dlcx8XtBEe24h7PPGeyHmw" base_Parameter="_dY_rbHtBEe24h7PPGeyHmw" JavaTypeExpr="String"/>
+  <JavaExtensions:JavaClass xmi:id="_dlcx8ntBEe24h7PPGeyHmw" base_Class="_dY_rcntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dldZAHtBEe24h7PPGeyHmw" base_Operation="_dY_rzHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dldZAXtBEe24h7PPGeyHmw" base_Dependency="_dZARqHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dldZAntBEe24h7PPGeyHmw" base_Operation="_dY_r2XtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dldZA3tBEe24h7PPGeyHmw" base_Dependency="_dZARqXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dleAEHtBEe24h7PPGeyHmw" base_Operation="_dY_r4ntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dleAEXtBEe24h7PPGeyHmw" base_Dependency="_dZARqntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dleAEntBEe24h7PPGeyHmw" base_Operation="_dZARY3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dleAE3tBEe24h7PPGeyHmw" base_Dependency="_dZARq3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlenIHtBEe24h7PPGeyHmw" base_Operation="_dZARbHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlenIXtBEe24h7PPGeyHmw" base_Dependency="_dZARrHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlenIntBEe24h7PPGeyHmw" base_Operation="_dZAReXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlenI3tBEe24h7PPGeyHmw" base_Dependency="_dZARrXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlfOMHtBEe24h7PPGeyHmw" base_Class="_dZARrntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlfOMXtBEe24h7PPGeyHmw" base_Operation="_dZAR3HtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlfOMntBEe24h7PPGeyHmw" base_Dependency="_dZA4cHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlfOM3tBEe24h7PPGeyHmw" base_Operation="_dZAR6XtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlf1QHtBEe24h7PPGeyHmw" base_Dependency="_dZA4cXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlf1QXtBEe24h7PPGeyHmw" base_Class="_dZA4cntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlf1QntBEe24h7PPGeyHmw" base_Operation="_dZA4hntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlf1Q3tBEe24h7PPGeyHmw" base_Dependency="_dZA4nHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlf1RHtBEe24h7PPGeyHmw" base_Operation="_dZA4k3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlgcUHtBEe24h7PPGeyHmw" base_Dependency="_dZA4nXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlgcUXtBEe24h7PPGeyHmw" base_Class="_dZA4nntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlgcUntBEe24h7PPGeyHmw" base_Operation="_dZA4v3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlhDYHtBEe24h7PPGeyHmw" base_Dependency="_dZA41XtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlhDYXtBEe24h7PPGeyHmw" base_Operation="_dZA4zHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlhDYntBEe24h7PPGeyHmw" base_Dependency="_dZA41ntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_dlhDY3tBEe24h7PPGeyHmw" base_Class="_dZA413tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlhDZHtBEe24h7PPGeyHmw" base_Operation="_dZA5LHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_dlhqcHtBEe24h7PPGeyHmw" base_Dependency="_dZA5QntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlhqcXtBEe24h7PPGeyHmw" base_Operation="_dZA5OXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_dlhqcntBEe24h7PPGeyHmw" base_Dependency="_dZA5Q3tBEe24h7PPGeyHmw"/>
+</xmi:XMI>

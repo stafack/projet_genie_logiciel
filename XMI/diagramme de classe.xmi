@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaExtensions="http:///schemas/JavaExtensions/_1VCMsHtBEe24h7PPGeyHmw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://schema.omg.org/spec/UML/2.1.1" xmi:version="2.1" xsi:schemaLocation="http://www.eclipse.org/uml2/3.0.0/UML http://schema.omg.org/spec/UML/2.1.1 http:///schemas/JavaExtensions/_1VCMsHtBEe24h7PPGeyHmw/0 JavaExtensions.profile.xmi#_1WDgZ3tBEe24h7PPGeyHmw">
+  <uml:Model xmi:id="_1U1_cHtBEe24h7PPGeyHmw" name="diagramme de classe">
+    <eAnnotations xmi:id="_1U1_cXtBEe24h7PPGeyHmw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_1U1_cntBEe24h7PPGeyHmw" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U1_c3tBEe24h7PPGeyHmw" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U1_dHtBEe24h7PPGeyHmw" name="Admin">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_dXtBEe24h7PPGeyHmw">
+        <body/>
+      </ownedComment>
+      <generalization xmi:type="uml:Generalization" xmi:id="_1U1_dntBEe24h7PPGeyHmw" general="_1U30p3tBEe24h7PPGeyHmw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_d3tBEe24h7PPGeyHmw" name="effectuer" visibility="public" type="_1U2mhntBEe24h7PPGeyHmw" isUnique="false" association="_1U1_intBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_eHtBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_eXtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_entBEe24h7PPGeyHmw" name="gerer" visibility="public" type="_1U30p3tBEe24h7PPGeyHmw" isUnique="false" association="_1U1_jHtBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_e3tBEe24h7PPGeyHmw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_fHtBEe24h7PPGeyHmw" name="idadmin" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U1_fXtBEe24h7PPGeyHmw" name="getIdadmin" visibility="package" clientDependency="_1U1_jntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_fntBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_f3tBEe24h7PPGeyHmw">
+          <body>return this.idadmin;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U1_gHtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_gXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_gntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U1_g3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U1_hHtBEe24h7PPGeyHmw" name="setIdadmin" visibility="package" clientDependency="_1U1_j3tBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_hXtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idadmin = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U1_hntBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_h3tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_iHtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U1_iXtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U1_intBEe24h7PPGeyHmw" memberEnd="_1U1_d3tBEe24h7PPGeyHmw _1U1_i3tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U1_i3tBEe24h7PPGeyHmw" visibility="public" type="_1U1_dHtBEe24h7PPGeyHmw" isUnique="false" association="_1U1_intBEe24h7PPGeyHmw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U1_jHtBEe24h7PPGeyHmw" memberEnd="_1U1_entBEe24h7PPGeyHmw _1U1_jXtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U1_jXtBEe24h7PPGeyHmw" visibility="public" type="_1U1_dHtBEe24h7PPGeyHmw" isUnique="false" association="_1U1_jHtBEe24h7PPGeyHmw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U1_jntBEe24h7PPGeyHmw" name="" supplier="_1U1_fHtBEe24h7PPGeyHmw" client="_1U1_fXtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U1_j3tBEe24h7PPGeyHmw" name="" supplier="_1U1_fHtBEe24h7PPGeyHmw" client="_1U1_hHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U1_kHtBEe24h7PPGeyHmw" name="Vendeur">
+      <generalization xmi:type="uml:Generalization" xmi:id="_1U1_kXtBEe24h7PPGeyHmw" general="_1U30p3tBEe24h7PPGeyHmw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_kntBEe24h7PPGeyHmw" name="gerer" visibility="public" type="_1U3NmXtBEe24h7PPGeyHmw" isUnique="false" association="_1U1_o3tBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_k3tBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_lHtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_lXtBEe24h7PPGeyHmw" name="idvendeur" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U1_lntBEe24h7PPGeyHmw" name="getIdvendeur" visibility="package" clientDependency="_1U1_pXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_l3tBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_mHtBEe24h7PPGeyHmw">
+          <body>return this.idvendeur;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U1_mXtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_mntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_m3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U1_nHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U1_nXtBEe24h7PPGeyHmw" name="setIdvendeur" visibility="package" clientDependency="_1U1_pntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_nntBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idvendeur = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U1_n3tBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_oHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_oXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U1_ontBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U1_o3tBEe24h7PPGeyHmw" memberEnd="_1U1_kntBEe24h7PPGeyHmw _1U1_pHtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U1_pHtBEe24h7PPGeyHmw" visibility="public" type="_1U1_kHtBEe24h7PPGeyHmw" isUnique="false" association="_1U1_o3tBEe24h7PPGeyHmw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U1_pXtBEe24h7PPGeyHmw" name="" supplier="_1U1_lXtBEe24h7PPGeyHmw" client="_1U1_lntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U1_pntBEe24h7PPGeyHmw" name="" supplier="_1U1_lXtBEe24h7PPGeyHmw" client="_1U1_nXtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U1_p3tBEe24h7PPGeyHmw" name="Client">
+      <generalization xmi:type="uml:Generalization" xmi:id="_1U1_qHtBEe24h7PPGeyHmw" general="_1U30p3tBEe24h7PPGeyHmw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_qXtBEe24h7PPGeyHmw" name="passer" visibility="public" type="_1U2mrntBEe24h7PPGeyHmw" isUnique="false" association="_1U2mgHtBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_qntBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_q3tBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_rHtBEe24h7PPGeyHmw" name="gerer" visibility="public" type="_1U2mi3tBEe24h7PPGeyHmw" isUnique="false" association="_1U2mgntBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_rXtBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_rntBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U1_r3tBEe24h7PPGeyHmw" name="idclient" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U1_sHtBEe24h7PPGeyHmw" name="getIdclient" visibility="package" clientDependency="_1U2mhHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_sXtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_sntBEe24h7PPGeyHmw">
+          <body>return this.idclient;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U1_s3tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_tHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_tXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U1_tntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U1_t3tBEe24h7PPGeyHmw" name="setIdclient" visibility="package" clientDependency="_1U2mhXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U1_uHtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idclient = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U1_uXtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U1_untBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U1_u3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U1_vHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U2mgHtBEe24h7PPGeyHmw" memberEnd="_1U1_qXtBEe24h7PPGeyHmw _1U2mgXtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U2mgXtBEe24h7PPGeyHmw" visibility="public" type="_1U1_p3tBEe24h7PPGeyHmw" isUnique="false" association="_1U2mgHtBEe24h7PPGeyHmw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U2mgntBEe24h7PPGeyHmw" memberEnd="_1U1_rHtBEe24h7PPGeyHmw _1U2mg3tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U2mg3tBEe24h7PPGeyHmw" visibility="public" type="_1U1_p3tBEe24h7PPGeyHmw" isUnique="false" association="_1U2mgntBEe24h7PPGeyHmw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U2mhHtBEe24h7PPGeyHmw" name="" supplier="_1U1_r3tBEe24h7PPGeyHmw" client="_1U1_sHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U2mhXtBEe24h7PPGeyHmw" name="" supplier="_1U1_r3tBEe24h7PPGeyHmw" client="_1U1_t3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U2mhntBEe24h7PPGeyHmw" name="Livraison">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mh3tBEe24h7PPGeyHmw" name="idliv" visibility="private" isUnique="false">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2miHtBEe24h7PPGeyHmw">
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2miXtBEe24h7PPGeyHmw" name="dateliv" visibility="public" type="_1U30xntBEe24h7PPGeyHmw" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mintBEe24h7PPGeyHmw" name="modeliv" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U2mi3tBEe24h7PPGeyHmw" name="Panier">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mjHtBEe24h7PPGeyHmw" name="contenir" visibility="public" type="_1U3NmXtBEe24h7PPGeyHmw" isUnique="false" association="_1U2mlntBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2mjXtBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2mjntBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mj3tBEe24h7PPGeyHmw" name="idpan" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mkHtBEe24h7PPGeyHmw" name="etatpan" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mkXtBEe24h7PPGeyHmw" name="totalpan" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mkntBEe24h7PPGeyHmw" name="AjouterPan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mk3tBEe24h7PPGeyHmw" name="CreerPan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mlHtBEe24h7PPGeyHmw" name="ViderPan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mlXtBEe24h7PPGeyHmw" name="ConsulterPan" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U2mlntBEe24h7PPGeyHmw" memberEnd="_1U2mjHtBEe24h7PPGeyHmw _1U2ml3tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U2ml3tBEe24h7PPGeyHmw" visibility="public" type="_1U2mi3tBEe24h7PPGeyHmw" isUnique="false" association="_1U2mlntBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2mmHtBEe24h7PPGeyHmw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2mmXtBEe24h7PPGeyHmw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U2mmntBEe24h7PPGeyHmw" name="Facture">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mm3tBEe24h7PPGeyHmw" name="idfact" visibility="private" isUnique="false">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2mnHtBEe24h7PPGeyHmw">
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mnXtBEe24h7PPGeyHmw" name="date" visibility="public" type="_1U30xntBEe24h7PPGeyHmw" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mnntBEe24h7PPGeyHmw" name="remise" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mn3tBEe24h7PPGeyHmw" name="getIdfact" visibility="package" clientDependency="_1U2mrHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2moHtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2moXtBEe24h7PPGeyHmw">
+          <body>return this.idfact;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2montBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2mo3tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2mpHtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2mpXtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mpntBEe24h7PPGeyHmw" name="setIdfact" visibility="package" clientDependency="_1U2mrXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2mp3tBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idfact = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2mqHtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2mqXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2mqntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2mq3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U2mrHtBEe24h7PPGeyHmw" name="" supplier="_1U2mm3tBEe24h7PPGeyHmw" client="_1U2mn3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U2mrXtBEe24h7PPGeyHmw" name="" supplier="_1U2mm3tBEe24h7PPGeyHmw" client="_1U2mpntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U2mrntBEe24h7PPGeyHmw" name="Commande">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mr3tBEe24h7PPGeyHmw" name="etreconstituer" visibility="public" type="_1U3NmXtBEe24h7PPGeyHmw" isUnique="false" association="_1U2m5ntBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2msHtBEe24h7PPGeyHmw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2msXtBEe24h7PPGeyHmw" name="posseder" visibility="public" type="_1U2mmntBEe24h7PPGeyHmw" isUnique="false" association="_1U2m6XtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2msntBEe24h7PPGeyHmw">
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2ms3tBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mtHtBEe24h7PPGeyHmw" name="concerner" visibility="public" type="_1U2mhntBEe24h7PPGeyHmw" isUnique="false" association="_1U2m63tBEe24h7PPGeyHmw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2mtXtBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mtntBEe24h7PPGeyHmw" name="payerpar" visibility="public" type="_1U3Ny3tBEe24h7PPGeyHmw" isUnique="false" association="_1U3NkHtBEe24h7PPGeyHmw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2mt3tBEe24h7PPGeyHmw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2muHtBEe24h7PPGeyHmw" name="idcmd" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2muXtBEe24h7PPGeyHmw" name="idclient" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2muntBEe24h7PPGeyHmw" name="idprd" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mu3tBEe24h7PPGeyHmw" name="date" visibility="public" type="_1U30xntBEe24h7PPGeyHmw" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mvHtBEe24h7PPGeyHmw" name="qte" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U2mvXtBEe24h7PPGeyHmw" name="montant" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mvntBEe24h7PPGeyHmw" name="SommeTotalProd" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mv3tBEe24h7PPGeyHmw" name="getIdcmd" visibility="package" clientDependency="_1U3Nk3tBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2mwHtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2mwXtBEe24h7PPGeyHmw">
+          <body>return this.idcmd;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2mwntBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2mw3tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2mxHtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2mxXtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mxntBEe24h7PPGeyHmw" name="setIdcmd" visibility="package" clientDependency="_1U3NlHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2mx3tBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idcmd = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2myHtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2myXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2myntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2my3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2mzHtBEe24h7PPGeyHmw" name="getIdclient" visibility="package" clientDependency="_1U3NlXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2mzXtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2mzntBEe24h7PPGeyHmw">
+          <body>return this.idclient;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2mz3tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2m0HtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2m0XtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2m0ntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2m03tBEe24h7PPGeyHmw" name="setIdclient" visibility="package" clientDependency="_1U3NlntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2m1HtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idclient = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2m1XtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2m1ntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2m13tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2m2HtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2m2XtBEe24h7PPGeyHmw" name="getIdprd" visibility="package" clientDependency="_1U3Nl3tBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2m2ntBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2m23tBEe24h7PPGeyHmw">
+          <body>return this.idprd;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2m3HtBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2m3XtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2m3ntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2m33tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U2m4HtBEe24h7PPGeyHmw" name="setIdprd" visibility="package" clientDependency="_1U3NmHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U2m4XtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idprd = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U2m4ntBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2m43tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U2m5HtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U2m5XtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U2m5ntBEe24h7PPGeyHmw" memberEnd="_1U2mr3tBEe24h7PPGeyHmw _1U2m53tBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U2m53tBEe24h7PPGeyHmw" visibility="public" type="_1U2mrntBEe24h7PPGeyHmw" isUnique="false" association="_1U2m5ntBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U2m6HtBEe24h7PPGeyHmw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U2m6XtBEe24h7PPGeyHmw" memberEnd="_1U2msXtBEe24h7PPGeyHmw _1U2m6ntBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U2m6ntBEe24h7PPGeyHmw" visibility="public" type="_1U2mrntBEe24h7PPGeyHmw" isUnique="false" association="_1U2m6XtBEe24h7PPGeyHmw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U2m63tBEe24h7PPGeyHmw" memberEnd="_1U2mtHtBEe24h7PPGeyHmw _1U2m7HtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U2m7HtBEe24h7PPGeyHmw" visibility="public" type="_1U2mrntBEe24h7PPGeyHmw" isUnique="false" association="_1U2m63tBEe24h7PPGeyHmw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U3NkHtBEe24h7PPGeyHmw" memberEnd="_1U2mtntBEe24h7PPGeyHmw _1U3NkXtBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U3NkXtBEe24h7PPGeyHmw" visibility="public" type="_1U2mrntBEe24h7PPGeyHmw" isUnique="false" association="_1U3NkHtBEe24h7PPGeyHmw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U3NkntBEe24h7PPGeyHmw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3Nk3tBEe24h7PPGeyHmw" name="" supplier="_1U2muHtBEe24h7PPGeyHmw" client="_1U2mv3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NlHtBEe24h7PPGeyHmw" name="" supplier="_1U2muHtBEe24h7PPGeyHmw" client="_1U2mxntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NlXtBEe24h7PPGeyHmw" name="" supplier="_1U2muXtBEe24h7PPGeyHmw" client="_1U2mzHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NlntBEe24h7PPGeyHmw" name="" supplier="_1U2muXtBEe24h7PPGeyHmw" client="_1U2m03tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3Nl3tBEe24h7PPGeyHmw" name="" supplier="_1U2muntBEe24h7PPGeyHmw" client="_1U2m2XtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NmHtBEe24h7PPGeyHmw" name="" supplier="_1U2muntBEe24h7PPGeyHmw" client="_1U2m4HtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U3NmXtBEe24h7PPGeyHmw" name="Produit">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NmntBEe24h7PPGeyHmw" name="appartenir" visibility="public" type="_1U3NtntBEe24h7PPGeyHmw" isUnique="false" association="_1U3NsXtBEe24h7PPGeyHmw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3Nm3tBEe24h7PPGeyHmw" name="idprod" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NnHtBEe24h7PPGeyHmw" name="nom" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NnXtBEe24h7PPGeyHmw" name="prix.u" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NnntBEe24h7PPGeyHmw" name="description" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3Nn3tBEe24h7PPGeyHmw" name="ListerProd" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3NoHtBEe24h7PPGeyHmw" name="Ajouter" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3NoXtBEe24h7PPGeyHmw" name="Rechercher" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3NontBEe24h7PPGeyHmw" name="Modifier" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3No3tBEe24h7PPGeyHmw" name="Supprimer" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3NpHtBEe24h7PPGeyHmw" name="getIdprod" visibility="package" clientDependency="_1U3NtHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3NpXtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3NpntBEe24h7PPGeyHmw">
+          <body>return this.idprod;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U3Np3tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U3NqHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U3NqXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U3NqntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3Nq3tBEe24h7PPGeyHmw" name="setIdprod" visibility="package" clientDependency="_1U3NtXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3NrHtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idprod = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U3NrXtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U3NrntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U3Nr3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U3NsHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1U3NsXtBEe24h7PPGeyHmw" memberEnd="_1U3NmntBEe24h7PPGeyHmw _1U3NsntBEe24h7PPGeyHmw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1U3NsntBEe24h7PPGeyHmw" visibility="public" type="_1U3NmXtBEe24h7PPGeyHmw" isUnique="false" association="_1U3NsXtBEe24h7PPGeyHmw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U3Ns3tBEe24h7PPGeyHmw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NtHtBEe24h7PPGeyHmw" name="" supplier="_1U3Nm3tBEe24h7PPGeyHmw" client="_1U3NpHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NtXtBEe24h7PPGeyHmw" name="" supplier="_1U3Nm3tBEe24h7PPGeyHmw" client="_1U3Nq3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U3NtntBEe24h7PPGeyHmw" name="Categorie">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3Nt3tBEe24h7PPGeyHmw" name="idcat" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NuHtBEe24h7PPGeyHmw" name="nomcat" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3NuXtBEe24h7PPGeyHmw" name="AjouterCat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3NuntBEe24h7PPGeyHmw" name="SupprimerCat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3Nu3tBEe24h7PPGeyHmw" name="ListerCat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3NvHtBEe24h7PPGeyHmw" name="getIdcat" visibility="package" clientDependency="_1U3NyXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3NvXtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3NvntBEe24h7PPGeyHmw">
+          <body>return this.idcat;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U3Nv3tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U3NwHtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U3NwXtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U3NwntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3Nw3tBEe24h7PPGeyHmw" name="setIdcat" visibility="package" clientDependency="_1U3NyntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3NxHtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idcat = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U3NxXtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U3NxntBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U3Nx3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U3NyHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NyXtBEe24h7PPGeyHmw" name="" supplier="_1U3Nt3tBEe24h7PPGeyHmw" client="_1U3NvHtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U3NyntBEe24h7PPGeyHmw" name="" supplier="_1U3Nt3tBEe24h7PPGeyHmw" client="_1U3Nw3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U3Ny3tBEe24h7PPGeyHmw" name="Carte">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NzHtBEe24h7PPGeyHmw" name="idcart" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NzXtBEe24h7PPGeyHmw" name="code" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3NzntBEe24h7PPGeyHmw" name="password" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U3Nz3tBEe24h7PPGeyHmw" name="montant" visibility="public" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3N0HtBEe24h7PPGeyHmw" name="getIdcart" visibility="package" clientDependency="_1U30pXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3N0XtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U3N0ntBEe24h7PPGeyHmw">
+          <body>return this.idcart;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U3N03tBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U3N1HtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U3N1XtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U3N1ntBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U3N13tBEe24h7PPGeyHmw" name="setIdcart" visibility="package" clientDependency="_1U30pntBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U30oHtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.idcart = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U30oXtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U30ontBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U30o3tBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U30pHtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U30pXtBEe24h7PPGeyHmw" name="" supplier="_1U3NzHtBEe24h7PPGeyHmw" client="_1U3N0HtBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U30pntBEe24h7PPGeyHmw" name="" supplier="_1U3NzHtBEe24h7PPGeyHmw" client="_1U3N13tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1U30p3tBEe24h7PPGeyHmw" name="Personne">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30qHtBEe24h7PPGeyHmw" name="id" visibility="private">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U30qXtBEe24h7PPGeyHmw">
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30qntBEe24h7PPGeyHmw" name="Nom" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30q3tBEe24h7PPGeyHmw" name="Prenom" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30rHtBEe24h7PPGeyHmw" name="Adresse" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30rXtBEe24h7PPGeyHmw" name="Telephone" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30rntBEe24h7PPGeyHmw" name="Sexe" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30r3tBEe24h7PPGeyHmw" name="Password" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30sHtBEe24h7PPGeyHmw" name="Mail" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1U30sXtBEe24h7PPGeyHmw" name="Ville" visibility="protected" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U30sntBEe24h7PPGeyHmw" name="Ajouter" visibility="protected">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U30s3tBEe24h7PPGeyHmw">
+          <body>&lt;Saisir le texte de la note ici&gt;</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U30tHtBEe24h7PPGeyHmw" name="Modifier" visibility="protected"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U30tXtBEe24h7PPGeyHmw" name="Supprimer" visibility="protected"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U30tntBEe24h7PPGeyHmw" name="Lister" visibility="protected"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U30t3tBEe24h7PPGeyHmw" name="getId" visibility="package" clientDependency="_1U30xHtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U30uHtBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U30uXtBEe24h7PPGeyHmw">
+          <body>return this.id;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U30untBEe24h7PPGeyHmw" isUnique="false" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U30u3tBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U30vHtBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U30vXtBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1U30vntBEe24h7PPGeyHmw" name="setId" visibility="package" clientDependency="_1U30xXtBEe24h7PPGeyHmw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1U30v3tBEe24h7PPGeyHmw">
+          <body>// Automatically generated method. Please delete this comment before entering specific code.&#13;
+this.id = value;</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_1U30wHtBEe24h7PPGeyHmw" name="value" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1U30wXtBEe24h7PPGeyHmw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1U30wntBEe24h7PPGeyHmw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1U30w3tBEe24h7PPGeyHmw" value=""/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U30xHtBEe24h7PPGeyHmw" name="" supplier="_1U30qHtBEe24h7PPGeyHmw" client="_1U30t3tBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1U30xXtBEe24h7PPGeyHmw" name="" supplier="_1U30qHtBEe24h7PPGeyHmw" client="_1U30vntBEe24h7PPGeyHmw"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1U30xntBEe24h7PPGeyHmw" name="date"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:applyingPackage="_1U1_cHtBEe24h7PPGeyHmw" xmi:id="_1d9fMHtBEe24h7PPGeyHmw">
+      <eAnnotations xmi:id="_1d-GQHtBEe24h7PPGeyHmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JavaExtensions.profile.xmi#_1WDgZ3tBEe24h7PPGeyHmw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" xmi:applyingPackage="_1d9fMHtBEe24h7PPGeyHmw" href="JavaExtensions.profile.xmi#_1WDgYHtBEe24h7PPGeyHmw"/>
+    </profileApplication>
+  </uml:Model>
+  <JavaExtensions:JavaClass xmi:id="_1eAigHtBEe24h7PPGeyHmw" base_Class="_1U1_dHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eBJkHtBEe24h7PPGeyHmw" base_Operation="_1U1_fXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eBwoHtBEe24h7PPGeyHmw" base_Dependency="_1U1_jntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eBwoXtBEe24h7PPGeyHmw" base_Operation="_1U1_hHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eBwontBEe24h7PPGeyHmw" base_Dependency="_1U1_j3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eBwo3tBEe24h7PPGeyHmw" base_Class="_1U1_kHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eBwpHtBEe24h7PPGeyHmw" base_Operation="_1U1_lntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eCXsHtBEe24h7PPGeyHmw" base_Dependency="_1U1_pXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eCXsXtBEe24h7PPGeyHmw" base_Operation="_1U1_nXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eCXsntBEe24h7PPGeyHmw" base_Dependency="_1U1_pntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eCXs3tBEe24h7PPGeyHmw" base_Class="_1U1_p3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eC-wHtBEe24h7PPGeyHmw" base_Operation="_1U1_sHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eC-wXtBEe24h7PPGeyHmw" base_Dependency="_1U2mhHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eC-wntBEe24h7PPGeyHmw" base_Operation="_1U1_t3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eC-w3tBEe24h7PPGeyHmw" base_Dependency="_1U2mhXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eDl0HtBEe24h7PPGeyHmw" base_Class="_1U2mhntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eDl0XtBEe24h7PPGeyHmw" base_Class="_1U2mi3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eDl0ntBEe24h7PPGeyHmw" base_Class="_1U2mmntBEe24h7PPGeyHmw">
+    <JavaImport>java.util.Date</JavaImport>
+  </JavaExtensions:JavaClass>
+  <JavaExtensions:StandardAttribute xmi:id="_1eEM4HtBEe24h7PPGeyHmw" base_Property="_1U2mm3tBEe24h7PPGeyHmw" JavaTypeExpr="String"/>
+  <JavaExtensions:StandardFeature xmi:id="_1eEM4XtBEe24h7PPGeyHmw" base_Feature="_1U2mm3tBEe24h7PPGeyHmw" JavaNoInitValue="true"/>
+  <JavaExtensions:StandardAttribute xmi:id="_1eEz8HtBEe24h7PPGeyHmw" base_Property="_1U2mnXtBEe24h7PPGeyHmw" JavaTypeExpr="Date"/>
+  <JavaExtensions:StandardFeature xmi:id="_1eEz8XtBEe24h7PPGeyHmw" base_Feature="_1U2mnXtBEe24h7PPGeyHmw" JavaNoInitValue="true"/>
+  <JavaExtensions:StandardFeature xmi:id="_1eFbAHtBEe24h7PPGeyHmw" base_Feature="_1U2mnntBEe24h7PPGeyHmw" JavaNoInitValue="true"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eFbAXtBEe24h7PPGeyHmw" base_Operation="_1U2mn3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eGCEHtBEe24h7PPGeyHmw" base_Dependency="_1U2mrHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:StandardParameter xmi:id="_1eGCEXtBEe24h7PPGeyHmw" base_Parameter="_1U2montBEe24h7PPGeyHmw" JavaTypeExpr="String"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eGCEntBEe24h7PPGeyHmw" base_Operation="_1U2mpntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eGpIHtBEe24h7PPGeyHmw" base_Dependency="_1U2mrXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:StandardParameter xmi:id="_1eGpIXtBEe24h7PPGeyHmw" base_Parameter="_1U2mqHtBEe24h7PPGeyHmw" JavaTypeExpr="String"/>
+  <JavaExtensions:JavaClass xmi:id="_1eGpIntBEe24h7PPGeyHmw" base_Class="_1U2mrntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eGpI3tBEe24h7PPGeyHmw" base_Operation="_1U2mv3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eHQMHtBEe24h7PPGeyHmw" base_Dependency="_1U3Nk3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eHQMXtBEe24h7PPGeyHmw" base_Operation="_1U2mxntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eHQMntBEe24h7PPGeyHmw" base_Dependency="_1U3NlHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eHQM3tBEe24h7PPGeyHmw" base_Operation="_1U2mzHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eH3QHtBEe24h7PPGeyHmw" base_Dependency="_1U3NlXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eH3QXtBEe24h7PPGeyHmw" base_Operation="_1U2m03tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eH3QntBEe24h7PPGeyHmw" base_Dependency="_1U3NlntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eH3Q3tBEe24h7PPGeyHmw" base_Operation="_1U2m2XtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eH3RHtBEe24h7PPGeyHmw" base_Dependency="_1U3Nl3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eIeUHtBEe24h7PPGeyHmw" base_Operation="_1U2m4HtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eIeUXtBEe24h7PPGeyHmw" base_Dependency="_1U3NmHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eIeUntBEe24h7PPGeyHmw" base_Class="_1U3NmXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eIeU3tBEe24h7PPGeyHmw" base_Operation="_1U3NpHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eIeVHtBEe24h7PPGeyHmw" base_Dependency="_1U3NtHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eJFYHtBEe24h7PPGeyHmw" base_Operation="_1U3Nq3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eJFYXtBEe24h7PPGeyHmw" base_Dependency="_1U3NtXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eJFYntBEe24h7PPGeyHmw" base_Class="_1U3NtntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eJFY3tBEe24h7PPGeyHmw" base_Operation="_1U3NvHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eJscHtBEe24h7PPGeyHmw" base_Dependency="_1U3NyXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eJscXtBEe24h7PPGeyHmw" base_Operation="_1U3Nw3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eJscntBEe24h7PPGeyHmw" base_Dependency="_1U3NyntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eJsc3tBEe24h7PPGeyHmw" base_Class="_1U3Ny3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eKTgHtBEe24h7PPGeyHmw" base_Operation="_1U3N0HtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eKTgXtBEe24h7PPGeyHmw" base_Dependency="_1U30pXtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eKTgntBEe24h7PPGeyHmw" base_Operation="_1U3N13tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eKTg3tBEe24h7PPGeyHmw" base_Dependency="_1U30pntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaClass xmi:id="_1eKThHtBEe24h7PPGeyHmw" base_Class="_1U30p3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eK6kHtBEe24h7PPGeyHmw" base_Operation="_1U30t3tBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaGetter xmi:id="_1eK6kXtBEe24h7PPGeyHmw" base_Dependency="_1U30xHtBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eK6kntBEe24h7PPGeyHmw" base_Operation="_1U30vntBEe24h7PPGeyHmw"/>
+  <JavaExtensions:JavaSetter xmi:id="_1eK6k3tBEe24h7PPGeyHmw" base_Dependency="_1U30xXtBEe24h7PPGeyHmw"/>
+</xmi:XMI>

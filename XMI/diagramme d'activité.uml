@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.1.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_7tW9cHwBEe21pKX_eLsz8g" name="diagramme d'activité">
+  <eAnnotations xmi:id="_7tW9cXwBEe21pKX_eLsz8g" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_7tW9cnwBEe21pKX_eLsz8g" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_7tW9c3wBEe21pKX_eLsz8g" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7tW9dHwBEe21pKX_eLsz8g" name="inscription">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_7tW9dXwBEe21pKX_eLsz8g" name="locals">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7tW9dnwBEe21pKX_eLsz8g" name="espace personnel" aggregation="composite"/>
+    </nestedClassifier>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW9d3wBEe21pKX_eLsz8g" name="Initial Node" outgoing="_7tW9iXwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9eHwBEe21pKX_eLsz8g" name="demande d'inscription" outgoing="_7tW9i3wBEe21pKX_eLsz8g" incoming="_7tW9iXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9eXwBEe21pKX_eLsz8g" name="affichage du formulaire d'inscription" outgoing="_7tW9jXwBEe21pKX_eLsz8g" incoming="_7tW9i3wBEe21pKX_eLsz8g _7tW9l3wBEe21pKX_eLsz8g _7tW9oHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9enwBEe21pKX_eLsz8g" name="verification des informations" outgoing="_7tW9j3wBEe21pKX_eLsz8g" incoming="_7tW9nXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9e3wBEe21pKX_eLsz8g" name="emettre une requette a la BD" outgoing="_7tW9kXwBEe21pKX_eLsz8g" incoming="_7tW9lXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9fHwBEe21pKX_eLsz8g" name="recevoir une reponse" outgoing="_7tW9k3wBEe21pKX_eLsz8g" incoming="_7tW9kXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW9fXwBEe21pKX_eLsz8g" name="Activity Final Node" incoming="_7tW9k3wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW9fnwBEe21pKX_eLsz8g" name="Initial Node2" outgoing="_7tW9lXwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW9f3wBEe21pKX_eLsz8g" name="Decision-Merge1" outgoing="_7tW9l3wBEe21pKX_eLsz8g _7tW9mnwBEe21pKX_eLsz8g" incoming="_7tW9j3wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW9gHwBEe21pKX_eLsz8g" name="Decision-Merge" outgoing="_7tW9nXwBEe21pKX_eLsz8g _7tW9oHwBEe21pKX_eLsz8g" incoming="_7tW9jXwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9gXwBEe21pKX_eLsz8g" outgoing="_7tW9o3wBEe21pKX_eLsz8g _7tW9pXwBEe21pKX_eLsz8g" incoming="_7tW9mnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9gnwBEe21pKX_eLsz8g" name="enregistrer dans la BD" outgoing="_7tW9p3wBEe21pKX_eLsz8g" incoming="_7tW9qXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW9g3wBEe21pKX_eLsz8g" name="Initial Node3" outgoing="_7tW9qXwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW9hHwBEe21pKX_eLsz8g" name="Activity Final Node1" incoming="_7tW9p3wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_7tW9hXwBEe21pKX_eLsz8g" name="espace personnel" incoming="_7tW9o3wBEe21pKX_eLsz8g">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_7tW9hnwBEe21pKX_eLsz8g">
+        <body>&lt;Saisir le texte de la note ici&gt;</body>
+      </ownedComment>
+      <upperBound xmi:type="uml:LiteralString" xmi:id="_7tW9h3wBEe21pKX_eLsz8g" name="UpperBound" value="1"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW9iHwBEe21pKX_eLsz8g" name="Activity Final Node2" incoming="_7tW9pXwBEe21pKX_eLsz8g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9iXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9d3wBEe21pKX_eLsz8g" target="_7tW9eHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9inwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9i3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9eHwBEe21pKX_eLsz8g" target="_7tW9eXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9jHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9jXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9eXwBEe21pKX_eLsz8g" target="_7tW9gHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9jnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9j3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9enwBEe21pKX_eLsz8g" target="_7tW9f3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9kHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9kXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9e3wBEe21pKX_eLsz8g" target="_7tW9fHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9knwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9k3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9fHwBEe21pKX_eLsz8g" target="_7tW9fXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9lHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9lXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9fnwBEe21pKX_eLsz8g" target="_7tW9e3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9lnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9l3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9f3wBEe21pKX_eLsz8g" target="_7tW9eXwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW9mHwBEe21pKX_eLsz8g">
+        <body>OUI</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9mXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9mnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9f3wBEe21pKX_eLsz8g" target="_7tW9gXwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW9m3wBEe21pKX_eLsz8g">
+        <body>NON</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9nHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9nXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9gHwBEe21pKX_eLsz8g" target="_7tW9enwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW9nnwBEe21pKX_eLsz8g">
+        <body>OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9n3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9oHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9gHwBEe21pKX_eLsz8g" target="_7tW9eXwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW9oXwBEe21pKX_eLsz8g">
+        <body>requete !OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9onwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_7tW9o3wBEe21pKX_eLsz8g" name="ObjectFlow" source="_7tW9gXwBEe21pKX_eLsz8g" target="_7tW9hXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9pHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9pXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9gXwBEe21pKX_eLsz8g" target="_7tW9iHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9pnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9p3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9gnwBEe21pKX_eLsz8g" target="_7tW9hHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9qHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9qXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9g3wBEe21pKX_eLsz8g" target="_7tW9gnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9qnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7tW9q3wBEe21pKX_eLsz8g" name="authentification">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_7tW9rHwBEe21pKX_eLsz8g" name="locals"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW9rXwBEe21pKX_eLsz8g" name="Initial Node" outgoing="_7tW9wXwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9rnwBEe21pKX_eLsz8g" name="demande d'authentification" outgoing="_7tW9w3wBEe21pKX_eLsz8g" incoming="_7tW9wXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9r3wBEe21pKX_eLsz8g" name="generation du formulaire d'authentification" outgoing="_7tW9xXwBEe21pKX_eLsz8g" incoming="_7tW9w3wBEe21pKX_eLsz8g _7tW90HwBEe21pKX_eLsz8g _7tW933wBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ConditionalNode" xmi:id="_7tW9sHwBEe21pKX_eLsz8g" name="verifier identité" outgoing="_7tW9x3wBEe21pKX_eLsz8g" incoming="_7tW94nwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9sXwBEe21pKX_eLsz8g" name="requete a la BD" outgoing="_7tW9yXwBEe21pKX_eLsz8g" incoming="_7tW93XwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9snwBEe21pKX_eLsz8g" name="recevoir une reponse" outgoing="_7tW9y3wBEe21pKX_eLsz8g" incoming="_7tW9yXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW9s3wBEe21pKX_eLsz8g" name="Decision-Merge" outgoing="_7tW9zXwBEe21pKX_eLsz8g _7tW90HwBEe21pKX_eLsz8g" incoming="_7tW9x3wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9tHwBEe21pKX_eLsz8g" name="accorder acces" outgoing="_7tW903wBEe21pKX_eLsz8g" incoming="_7tW92XwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW9tXwBEe21pKX_eLsz8g" name="afficher son compte" outgoing="_7tW91XwBEe21pKX_eLsz8g" incoming="_7tW923wBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW9tnwBEe21pKX_eLsz8g" name="Activity Final Node" incoming="_7tW913wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_7tW9t3wBEe21pKX_eLsz8g" name="Fork/Join" outgoing="_7tW913wBEe21pKX_eLsz8g" incoming="_7tW903wBEe21pKX_eLsz8g _7tW91XwBEe21pKX_eLsz8g">
+      <joinSpec xmi:type="uml:LiteralString" xmi:id="_7tW9uHwBEe21pKX_eLsz8g" value="and"/>
+    </node>
+    <node xmi:type="uml:ForkNode" xmi:id="_7tW9uXwBEe21pKX_eLsz8g" name="Fork/Join1" outgoing="_7tW92XwBEe21pKX_eLsz8g _7tW923wBEe21pKX_eLsz8g" incoming="_7tW9zXwBEe21pKX_eLsz8g">
+      <eAnnotations xmi:id="_7tW9unwBEe21pKX_eLsz8g" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_7tW9u3wBEe21pKX_eLsz8g" name="JoinSpecification">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7tW9vHwBEe21pKX_eLsz8g" value="and"/>
+        </contents>
+        <contents xmi:type="uml:Property" xmi:id="_7tW9vXwBEe21pKX_eLsz8g" name="isCombineDuplicate"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW9vnwBEe21pKX_eLsz8g" name="Initial Node1" outgoing="_7tW93XwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW9v3wBEe21pKX_eLsz8g" name="Activity Final Node1" incoming="_7tW9y3wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW9wHwBEe21pKX_eLsz8g" name="Decision-Merge1" outgoing="_7tW933wBEe21pKX_eLsz8g _7tW94nwBEe21pKX_eLsz8g" incoming="_7tW9xXwBEe21pKX_eLsz8g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9wXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9rXwBEe21pKX_eLsz8g" target="_7tW9rnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9wnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9w3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9rnwBEe21pKX_eLsz8g" target="_7tW9r3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9xHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9xXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9r3wBEe21pKX_eLsz8g" target="_7tW9wHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9xnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9x3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9sHwBEe21pKX_eLsz8g" target="_7tW9s3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9yHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9yXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9sXwBEe21pKX_eLsz8g" target="_7tW9snwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9ynwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9y3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9snwBEe21pKX_eLsz8g" target="_7tW9v3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9zHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9zXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9s3wBEe21pKX_eLsz8g" target="_7tW9uXwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW9znwBEe21pKX_eLsz8g">
+        <body>OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9z3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW90HwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9s3wBEe21pKX_eLsz8g" target="_7tW9r3wBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW90XwBEe21pKX_eLsz8g">
+        <body>!ok</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW90nwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW903wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9tHwBEe21pKX_eLsz8g" target="_7tW9t3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW91HwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW91XwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9tXwBEe21pKX_eLsz8g" target="_7tW9t3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW91nwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW913wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9t3wBEe21pKX_eLsz8g" target="_7tW9tnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW92HwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW92XwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9uXwBEe21pKX_eLsz8g" target="_7tW9tHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW92nwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW923wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9uXwBEe21pKX_eLsz8g" target="_7tW9tXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW93HwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW93XwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9vnwBEe21pKX_eLsz8g" target="_7tW9sXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW93nwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW933wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9wHwBEe21pKX_eLsz8g" target="_7tW9r3wBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW94HwBEe21pKX_eLsz8g">
+        <body>requete !ok</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW94XwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW94nwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW9wHwBEe21pKX_eLsz8g" target="_7tW9sHwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW943wBEe21pKX_eLsz8g">
+        <body>ok</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW95HwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7tW95XwBEe21pKX_eLsz8g" name="gerer panier">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_7tW95nwBEe21pKX_eLsz8g" name="locals"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW953wBEe21pKX_eLsz8g" name="Initial Node" outgoing="_7tW993wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW96HwBEe21pKX_eLsz8g" name="affichage de la liste des produits" outgoing="_7tW9-XwBEe21pKX_eLsz8g" incoming="_7tW993wBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW96XwBEe21pKX_eLsz8g" name="choix des produits" outgoing="_7tW9-3wBEe21pKX_eLsz8g" incoming="_7tW9-XwBEe21pKX_eLsz8g _7tW-BXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW96nwBEe21pKX_eLsz8g" name="ajout des produits dans le panier" outgoing="_7tW9_XwBEe21pKX_eLsz8g" incoming="_7tW9-3wBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ForkNode" xmi:id="_7tW963wBEe21pKX_eLsz8g" name="Fork/Join" outgoing="_7tW9_3wBEe21pKX_eLsz8g _7tW-AXwBEe21pKX_eLsz8g" incoming="_7tW9_XwBEe21pKX_eLsz8g">
+      <eAnnotations xmi:id="_7tW97HwBEe21pKX_eLsz8g" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_7tW97XwBEe21pKX_eLsz8g" name="JoinSpecification">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7tW97nwBEe21pKX_eLsz8g" value="and"/>
+        </contents>
+        <contents xmi:type="uml:Property" xmi:id="_7tW973wBEe21pKX_eLsz8g" name="isCombineDuplicate"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW98HwBEe21pKX_eLsz8g" name="supprimer" outgoing="_7tW-A3wBEe21pKX_eLsz8g" incoming="_7tW-AXwBEe21pKX_eLsz8g _7tW-DnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW98XwBEe21pKX_eLsz8g" name="Decision-Merge" outgoing="_7tW-BXwBEe21pKX_eLsz8g _7tW-CHwBEe21pKX_eLsz8g _7tW-C3wBEe21pKX_eLsz8g" incoming="_7tW-A3wBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW98nwBEe21pKX_eLsz8g" name="choisir le produit a supprimer" outgoing="_7tW-DnwBEe21pKX_eLsz8g" incoming="_7tW-CHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:JoinNode" xmi:id="_7tW983wBEe21pKX_eLsz8g" name="Fork/Join1" outgoing="_7tW-EHwBEe21pKX_eLsz8g" incoming="_7tW9_3wBEe21pKX_eLsz8g _7tW-C3wBEe21pKX_eLsz8g">
+      <joinSpec xmi:type="uml:LiteralString" xmi:id="_7tW99HwBEe21pKX_eLsz8g" value="and"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW99XwBEe21pKX_eLsz8g" name="valider" outgoing="_7tW-EnwBEe21pKX_eLsz8g" incoming="_7tW-EHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW99nwBEe21pKX_eLsz8g" name="Activity Final Node" incoming="_7tW-EnwBEe21pKX_eLsz8g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW993wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW953wBEe21pKX_eLsz8g" target="_7tW96HwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9-HwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9-XwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW96HwBEe21pKX_eLsz8g" target="_7tW96XwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9-nwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9-3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW96XwBEe21pKX_eLsz8g" target="_7tW96nwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9_HwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9_XwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW96nwBEe21pKX_eLsz8g" target="_7tW963wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW9_nwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW9_3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW963wBEe21pKX_eLsz8g" target="_7tW983wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-AHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-AXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW963wBEe21pKX_eLsz8g" target="_7tW98HwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-AnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-A3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW98HwBEe21pKX_eLsz8g" target="_7tW98XwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-BHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-BXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW98XwBEe21pKX_eLsz8g" target="_7tW96XwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-BnwBEe21pKX_eLsz8g">
+        <body>vide</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-B3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-CHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW98XwBEe21pKX_eLsz8g" target="_7tW98nwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-CXwBEe21pKX_eLsz8g">
+        <body>! vide</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-CnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-C3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW98XwBEe21pKX_eLsz8g" target="_7tW983wBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-DHwBEe21pKX_eLsz8g">
+        <body>! vide</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-DXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-DnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW98nwBEe21pKX_eLsz8g" target="_7tW98HwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-D3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-EHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW983wBEe21pKX_eLsz8g" target="_7tW99XwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-EXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-EnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW99XwBEe21pKX_eLsz8g" target="_7tW99nwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-E3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7tW-FHwBEe21pKX_eLsz8g" name="recherche produit">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_7tW-FXwBEe21pKX_eLsz8g" name="locals"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW-FnwBEe21pKX_eLsz8g" name="Initial Node" outgoing="_7tW-HnwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-F3wBEe21pKX_eLsz8g" name="entrer le produit a rechercher" outgoing="_7tW-IHwBEe21pKX_eLsz8g" incoming="_7tW-HnwBEe21pKX_eLsz8g _7tW-KnwBEe21pKX_eLsz8g _7tW-LnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-GHwBEe21pKX_eLsz8g" name="Decision-Merge" outgoing="_7tW-InwBEe21pKX_eLsz8g _7tW-JXwBEe21pKX_eLsz8g" incoming="_7tW-IHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-GXwBEe21pKX_eLsz8g" name="liste vide" outgoing="_7tW-KHwBEe21pKX_eLsz8g _7tW-KnwBEe21pKX_eLsz8g" incoming="_7tW-InwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-GnwBEe21pKX_eLsz8g" name="liste des produits a rechercher" outgoing="_7tW-LHwBEe21pKX_eLsz8g _7tW-LnwBEe21pKX_eLsz8g" incoming="_7tW-JXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:JoinNode" xmi:id="_7tW-G3wBEe21pKX_eLsz8g" name="Fork/Join" outgoing="_7tW-MHwBEe21pKX_eLsz8g" incoming="_7tW-KHwBEe21pKX_eLsz8g _7tW-LHwBEe21pKX_eLsz8g">
+      <joinSpec xmi:type="uml:LiteralString" xmi:id="_7tW-HHwBEe21pKX_eLsz8g" value="and"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW-HXwBEe21pKX_eLsz8g" name="Activity Final Node" incoming="_7tW-MHwBEe21pKX_eLsz8g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-HnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-FnwBEe21pKX_eLsz8g" target="_7tW-F3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-H3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-IHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-F3wBEe21pKX_eLsz8g" target="_7tW-GHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-IXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-InwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-GHwBEe21pKX_eLsz8g" target="_7tW-GXwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-I3wBEe21pKX_eLsz8g">
+        <body>! trouve</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-JHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-JXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-GHwBEe21pKX_eLsz8g" target="_7tW-GnwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-JnwBEe21pKX_eLsz8g">
+        <body>produit trouve</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-J3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-KHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-GXwBEe21pKX_eLsz8g" target="_7tW-G3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-KXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-KnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-GXwBEe21pKX_eLsz8g" target="_7tW-F3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-K3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-LHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-GnwBEe21pKX_eLsz8g" target="_7tW-G3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-LXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-LnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-GnwBEe21pKX_eLsz8g" target="_7tW-F3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-L3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-MHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-G3wBEe21pKX_eLsz8g" target="_7tW-HXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-MXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7tW-MnwBEe21pKX_eLsz8g" name="payement">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_7tW-M3wBEe21pKX_eLsz8g" name="locals"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW-NHwBEe21pKX_eLsz8g" name="Initial Node" outgoing="_7tW-SHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-NXwBEe21pKX_eLsz8g" name="valider panier" outgoing="_7tW-SnwBEe21pKX_eLsz8g" incoming="_7tW-SHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-NnwBEe21pKX_eLsz8g" name="afficher page livraison" outgoing="_7tW-THwBEe21pKX_eLsz8g" incoming="_7tW-TnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-N3wBEe21pKX_eLsz8g" name="comptabiliser les produits du panier" outgoing="_7tW-TnwBEe21pKX_eLsz8g" incoming="_7tW-SnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-OHwBEe21pKX_eLsz8g" name="livraison a domicile" outgoing="_7tW-UHwBEe21pKX_eLsz8g" incoming="_7tW-XnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-OXwBEe21pKX_eLsz8g" name="ajouter les frais de livraison" outgoing="_7tW-UnwBEe21pKX_eLsz8g" incoming="_7tW-UHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-OnwBEe21pKX_eLsz8g" name="payement carte banquaire" outgoing="_7tW-VHwBEe21pKX_eLsz8g" incoming="_7tW-ZHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-O3wBEe21pKX_eLsz8g" name="autre livraison" outgoing="_7tW-VnwBEe21pKX_eLsz8g" incoming="_7tW-XHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-PHwBEe21pKX_eLsz8g" name="payement depot" outgoing="_7tW-WHwBEe21pKX_eLsz8g" incoming="_7tW-ZnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-PXwBEe21pKX_eLsz8g" name="somme totale" outgoing="_7tW-WnwBEe21pKX_eLsz8g" incoming="_7tW-YHwBEe21pKX_eLsz8g _7tW-a3wBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-PnwBEe21pKX_eLsz8g" name="Decision-Merge" outgoing="_7tW-XHwBEe21pKX_eLsz8g _7tW-XnwBEe21pKX_eLsz8g" incoming="_7tW-THwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_7tW-P3wBEe21pKX_eLsz8g" name="Fork/Join" outgoing="_7tW-YHwBEe21pKX_eLsz8g" incoming="_7tW-UnwBEe21pKX_eLsz8g _7tW-VnwBEe21pKX_eLsz8g">
+      <joinSpec xmi:type="uml:LiteralString" xmi:id="_7tW-QHwBEe21pKX_eLsz8g" value="and"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-QXwBEe21pKX_eLsz8g" name="etablir facture" outgoing="_7tW-YnwBEe21pKX_eLsz8g" incoming="_7tW-cHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-QnwBEe21pKX_eLsz8g" name="Decision-Merge1" outgoing="_7tW-ZHwBEe21pKX_eLsz8g _7tW-ZnwBEe21pKX_eLsz8g" incoming="_7tW-WnwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-Q3wBEe21pKX_eLsz8g" name="Decision-Merge2" outgoing="_7tW-aHwBEe21pKX_eLsz8g _7tW-a3wBEe21pKX_eLsz8g" incoming="_7tW-VHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-RHwBEe21pKX_eLsz8g" name="impression facture" outgoing="_7tW-bnwBEe21pKX_eLsz8g" incoming="_7tW-YnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW-RXwBEe21pKX_eLsz8g" name="Activity Final Node" incoming="_7tW-bnwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_7tW-RnwBEe21pKX_eLsz8g" name="Fork/Join1" outgoing="_7tW-cHwBEe21pKX_eLsz8g" incoming="_7tW-WHwBEe21pKX_eLsz8g _7tW-aHwBEe21pKX_eLsz8g">
+      <joinSpec xmi:type="uml:LiteralString" xmi:id="_7tW-R3wBEe21pKX_eLsz8g" value="and"/>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-SHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-NHwBEe21pKX_eLsz8g" target="_7tW-NXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-SXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-SnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-NXwBEe21pKX_eLsz8g" target="_7tW-N3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-S3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-THwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-NnwBEe21pKX_eLsz8g" target="_7tW-PnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-TXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-TnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-N3wBEe21pKX_eLsz8g" target="_7tW-NnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-T3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-UHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-OHwBEe21pKX_eLsz8g" target="_7tW-OXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-UXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-UnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-OXwBEe21pKX_eLsz8g" target="_7tW-P3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-U3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-VHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-OnwBEe21pKX_eLsz8g" target="_7tW-Q3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-VXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-VnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-O3wBEe21pKX_eLsz8g" target="_7tW-P3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-V3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-WHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-PHwBEe21pKX_eLsz8g" target="_7tW-RnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-WXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-WnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-PXwBEe21pKX_eLsz8g" target="_7tW-QnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-W3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-XHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-PnwBEe21pKX_eLsz8g" target="_7tW-O3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-XXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-XnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-PnwBEe21pKX_eLsz8g" target="_7tW-OHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-X3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-YHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-P3wBEe21pKX_eLsz8g" target="_7tW-PXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-YXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-YnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-QXwBEe21pKX_eLsz8g" target="_7tW-RHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-Y3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-ZHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-QnwBEe21pKX_eLsz8g" target="_7tW-OnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-ZXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-ZnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-QnwBEe21pKX_eLsz8g" target="_7tW-PHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-Z3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-aHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-Q3wBEe21pKX_eLsz8g" target="_7tW-RnwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-aXwBEe21pKX_eLsz8g">
+        <body>OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-anwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-a3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-Q3wBEe21pKX_eLsz8g" target="_7tW-PXwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-bHwBEe21pKX_eLsz8g">
+        <body>!ok</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-bXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-bnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-RHwBEe21pKX_eLsz8g" target="_7tW-RXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-b3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-cHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-RnwBEe21pKX_eLsz8g" target="_7tW-QXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-cXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7tW-cnwBEe21pKX_eLsz8g" name="gerer produit">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_7tW-c3wBEe21pKX_eLsz8g" name="locals"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7tW-dHwBEe21pKX_eLsz8g" name="Initial Node" outgoing="_7tW-inwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-dXwBEe21pKX_eLsz8g" name="Decision-Merge" outgoing="_7tW-jHwBEe21pKX_eLsz8g _7tW-jnwBEe21pKX_eLsz8g _7tW-kHwBEe21pKX_eLsz8g" incoming="_7tW-inwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-dnwBEe21pKX_eLsz8g" name="demande du formulaire d'ajout" outgoing="_7tW-knwBEe21pKX_eLsz8g" incoming="_7tW-jnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-d3wBEe21pKX_eLsz8g" name="selection du compte a supprimer" outgoing="_7tW-lHwBEe21pKX_eLsz8g" incoming="_7tW-jHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-eHwBEe21pKX_eLsz8g" name="demande du fomulaire de modification" outgoing="_7tW-lnwBEe21pKX_eLsz8g" incoming="_7tW-kHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-eXwBEe21pKX_eLsz8g" name="affichage du formulaire" outgoing="_7tW-mHwBEe21pKX_eLsz8g" incoming="_7tW-knwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-enwBEe21pKX_eLsz8g" name="affichage du formulaire" outgoing="_7tW-mnwBEe21pKX_eLsz8g" incoming="_7tW-lnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-e3wBEe21pKX_eLsz8g" name="entrer les informations de modification" outgoing="_7tW-nHwBEe21pKX_eLsz8g" incoming="_7tW-mnwBEe21pKX_eLsz8g _7tW-qXwBEe21pKX_eLsz8g _7tW-rnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-fHwBEe21pKX_eLsz8g" name="entrer les informations" outgoing="_7tW-nnwBEe21pKX_eLsz8g" incoming="_7tW-mHwBEe21pKX_eLsz8g _7tW-uXwBEe21pKX_eLsz8g _7tW-v3wBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-fXwBEe21pKX_eLsz8g" name="verification de la BD" outgoing="_7tW-oHwBEe21pKX_eLsz8g" incoming="_7tW-tnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-fnwBEe21pKX_eLsz8g" name="ajout dans la BD" outgoing="_7tW-onwBEe21pKX_eLsz8g _7tW-pHwBEe21pKX_eLsz8g" incoming="_7tW-vHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-f3wBEe21pKX_eLsz8g" name="Decision-Merge1" outgoing="_7tW-pnwBEe21pKX_eLsz8g _7tW-qXwBEe21pKX_eLsz8g" incoming="_7tW-nHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-gHwBEe21pKX_eLsz8g" name="verification de la BD" outgoing="_7tW-rHwBEe21pKX_eLsz8g" incoming="_7tW-pnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-gXwBEe21pKX_eLsz8g" name="Decision-Merge2" outgoing="_7tW-rnwBEe21pKX_eLsz8g _7tW-sXwBEe21pKX_eLsz8g" incoming="_7tW-rHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-gnwBEe21pKX_eLsz8g" name="modification reussie" outgoing="_7tW-tHwBEe21pKX_eLsz8g" incoming="_7tW-sXwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW-g3wBEe21pKX_eLsz8g" name="Activity Final Node" incoming="_7tW-tHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-hHwBEe21pKX_eLsz8g" name="Decision-Merge3" outgoing="_7tW-tnwBEe21pKX_eLsz8g _7tW-uXwBEe21pKX_eLsz8g" incoming="_7tW-nnwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7tW-hXwBEe21pKX_eLsz8g" name="Decision-Merge4" outgoing="_7tW-vHwBEe21pKX_eLsz8g _7tW-v3wBEe21pKX_eLsz8g" incoming="_7tW-oHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-hnwBEe21pKX_eLsz8g" name="selection du compte a supprimer" outgoing="_7tW-wnwBEe21pKX_eLsz8g" incoming="_7tW-lHwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7tW-h3wBEe21pKX_eLsz8g" name="suppression du compte dans la BD" outgoing="_7tW-xHwBEe21pKX_eLsz8g" incoming="_7tW-wnwBEe21pKX_eLsz8g">
+      <body/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW-iHwBEe21pKX_eLsz8g" name="Activity Final Node1" incoming="_7tW-onwBEe21pKX_eLsz8g _7tW-pHwBEe21pKX_eLsz8g"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_7tW-iXwBEe21pKX_eLsz8g" name="Activity Final Node2" incoming="_7tW-xHwBEe21pKX_eLsz8g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-inwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-dHwBEe21pKX_eLsz8g" target="_7tW-dXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-i3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-jHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-dXwBEe21pKX_eLsz8g" target="_7tW-d3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-jXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-jnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-dXwBEe21pKX_eLsz8g" target="_7tW-dnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-j3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-kHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-dXwBEe21pKX_eLsz8g" target="_7tW-eHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-kXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-knwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-dnwBEe21pKX_eLsz8g" target="_7tW-eXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-k3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-lHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-d3wBEe21pKX_eLsz8g" target="_7tW-hnwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-lXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-lnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-eHwBEe21pKX_eLsz8g" target="_7tW-enwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-l3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-mHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-eXwBEe21pKX_eLsz8g" target="_7tW-fHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-mXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-mnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-enwBEe21pKX_eLsz8g" target="_7tW-e3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-m3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-nHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-e3wBEe21pKX_eLsz8g" target="_7tW-f3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-nXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-nnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-fHwBEe21pKX_eLsz8g" target="_7tW-hHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-n3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-oHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-fXwBEe21pKX_eLsz8g" target="_7tW-hXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-oXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-onwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-fnwBEe21pKX_eLsz8g" target="_7tW-iHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-o3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-pHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-fnwBEe21pKX_eLsz8g" target="_7tW-iHwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-pXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-pnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-f3wBEe21pKX_eLsz8g" target="_7tW-gHwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-p3wBEe21pKX_eLsz8g">
+        <body>OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-qHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-qXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-f3wBEe21pKX_eLsz8g" target="_7tW-e3wBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-qnwBEe21pKX_eLsz8g">
+        <body>!OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-q3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-rHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-gHwBEe21pKX_eLsz8g" target="_7tW-gXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-rXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-rnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-gXwBEe21pKX_eLsz8g" target="_7tW-e3wBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-r3wBEe21pKX_eLsz8g">
+        <body>existe</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-sHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-sXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-gXwBEe21pKX_eLsz8g" target="_7tW-gnwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-snwBEe21pKX_eLsz8g">
+        <body>! existe</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-s3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-tHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-gnwBEe21pKX_eLsz8g" target="_7tW-g3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-tXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-tnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-hHwBEe21pKX_eLsz8g" target="_7tW-fXwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-t3wBEe21pKX_eLsz8g">
+        <body>OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-uHwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-uXwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-hHwBEe21pKX_eLsz8g" target="_7tW-fHwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-unwBEe21pKX_eLsz8g">
+        <body>!OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-u3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-vHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-hXwBEe21pKX_eLsz8g" target="_7tW-fnwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-vXwBEe21pKX_eLsz8g">
+        <body>! EXISTE</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-vnwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-v3wBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-hXwBEe21pKX_eLsz8g" target="_7tW-fHwBEe21pKX_eLsz8g">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_7tW-wHwBEe21pKX_eLsz8g">
+        <body>EXISTE</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-wXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-wnwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-hnwBEe21pKX_eLsz8g" target="_7tW-h3wBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-w3wBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7tW-xHwBEe21pKX_eLsz8g" name="ControlFlow" source="_7tW-h3wBEe21pKX_eLsz8g" target="_7tW-iXwBEe21pKX_eLsz8g">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7tW-xXwBEe21pKX_eLsz8g" value="1"/>
+    </edge>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7tW-xnwBEe21pKX_eLsz8g" name="gerer utilisateur">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_7tW-x3wBEe21pKX_eLsz8g" name="locals"/>
+  </packagedElement>
+</uml:Model>
