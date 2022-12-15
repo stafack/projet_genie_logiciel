@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rechercher produit" version="4">
+  <OBJECT>
+    <ID name="Rechercher produit" mc="Standard.Package" uid="03a55a46-bbe9-4f39-a70e-a1787b005274"/>
+    <PID name="diagramme de cas d'utilisation" mc="Standard.Package" uid="0d2cfe33-b15d-4bc9-a4ec-9c9b8c0bdcb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Rechercher produit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="rechercher produit" mc="Standard.UseCase" uid="d8006902-9275-45d3-bdd7-118537ce974c"/>
+        <COMPID name="client" mc="Standard.Actor" uid="d5fd8889-12ff-451c-83a4-3bb63739ea9c"/>
+        <COMPID name="visiteur" mc="Standard.Actor" uid="adb27ef6-6301-40be-a777-00bbf40b471c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="cas d'utilisation rechercher produit" mc="Standard.UseCaseDiagram" uid="e7ad83fd-b33c-4fd5-9458-08c7c082eee9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

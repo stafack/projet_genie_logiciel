@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme de classe" version="4">
+  <OBJECT>
+    <ID name="diagramme de classe" mc="Standard.Package" uid="d49f0c90-0379-415c-be7c-a8cc27c17732"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme de classe]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Admin" mc="Standard.Class" uid="d47f5b85-c9d2-4615-8983-0b58b9acdd85"/>
+        <COMPID name="Vendeur" mc="Standard.Class" uid="1e3960c5-ea9c-4ab8-b89b-75948e28787d"/>
+        <COMPID name="Client" mc="Standard.Class" uid="03c54116-de97-4e2e-a0ab-2b5f807cf234"/>
+        <COMPID name="Livraison" mc="Standard.Class" uid="c57f3f47-2c05-4f07-9082-ed6dc25def17"/>
+        <COMPID name="Panier" mc="Standard.Class" uid="4f825194-6660-45ea-9f25-19c2e1fba72c"/>
+        <COMPID name="Facture" mc="Standard.Class" uid="b1b1a8d2-83e0-40ec-abee-ee7352200592"/>
+        <COMPID name="Commande" mc="Standard.Class" uid="6fce9501-e376-4438-a043-d896e9e65e7c"/>
+        <COMPID name="Produit" mc="Standard.Class" uid="167bd9ee-ea3b-4375-ab93-3c129c44d8c7"/>
+        <COMPID name="Categorie" mc="Standard.Class" uid="6d51bcfb-d67d-4885-b65c-e99afed155d2"/>
+        <COMPID name="Carte" mc="Standard.Class" uid="4ba402d0-1f59-4b84-811b-61fd784cfd75"/>
+        <COMPID name="Personne" mc="Standard.Class" uid="035308f3-fa03-4492-8c21-baf786bf96fa"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe diagramme de classe" mc="Standard.ClassDiagram" uid="d2bae3b8-a8e0-4fb8-839a-b5658aa1030b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

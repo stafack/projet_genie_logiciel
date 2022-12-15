@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme de sequence" version="4">
+  <OBJECT>
+    <ID name="diagramme de sequence" mc="Standard.Package" uid="fbef79b6-8157-495b-9afa-ae9d3215d2ab"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme de sequence]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="authentification" mc="Standard.Interaction" uid="14e09501-0fad-4d05-88c0-a96d53734e85"/>
+        <COMPID name="ajouter produit dans le panier" mc="Standard.Interaction" uid="85be8c5a-17e0-402a-a5bb-89c84bd9a42b"/>
+        <COMPID name="gerer produit" mc="Standard.Interaction" uid="0c990a02-91df-41a3-9c40-647cc877cb3c"/>
+        <COMPID name="gerer utilisateurs" mc="Standard.Interaction" uid="1248c34c-455e-4e07-a8dc-b8912af79aea"/>
+        <COMPID name="paiement" mc="Standard.Interaction" uid="121cfa9d-10e8-4b18-baec-fe46cee63447"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme d'activité" version="4">
+  <OBJECT>
+    <ID name="diagramme d'activité" mc="Standard.Package" uid="cedacc42-f552-40da-a275-17b6397b0764"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme d'activité]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="inscription" mc="Standard.Activity" uid="9820bd8c-cc62-4fea-9495-12c577a9e62e"/>
+        <COMPID name="authentification" mc="Standard.Activity" uid="a896d169-8b4e-4073-a3ce-e5b9297db208"/>
+        <COMPID name="gerer panier" mc="Standard.Activity" uid="0b89a963-143e-4a8b-841a-80385b09a906"/>
+        <COMPID name="recherche produit" mc="Standard.Activity" uid="f49e90dc-df7f-4498-9450-cba201e6b50c"/>
+        <COMPID name="payement" mc="Standard.Activity" uid="c2c7046e-a232-4ef9-befb-36f69380a5a3"/>
+        <COMPID name="gerer produit" mc="Standard.Activity" uid="c681ac62-3647-443c-bbbe-24bc6118f254"/>
+        <COMPID name="gerer utilisateur" mc="Standard.Activity" uid="fff85507-adff-4c12-b4db-977099355934"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

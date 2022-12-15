@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme de deploiement" version="4">
+  <OBJECT>
+    <ID name="diagramme de deploiement" mc="Standard.Package" uid="d5d266fb-59b4-4237-911c-f89a444edf84"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme de deploiement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

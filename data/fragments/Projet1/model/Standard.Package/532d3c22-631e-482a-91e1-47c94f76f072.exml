@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme d'etat " version="4">
+  <OBJECT>
+    <ID name="diagramme d'etat " mc="Standard.Package" uid="532d3c22-631e-482a-91e1-47c94f76f072"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme d'etat ]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="gerer panier" mc="Standard.StateMachine" uid="6b7bb98a-7e31-431b-869e-5cec299eb19b"/>
+        <COMPID name="gerer utilisateur" mc="Standard.StateMachine" uid="7190e77d-6bd7-4771-a0cc-f43e95e030c1"/>
+        <COMPID name="gerer produit" mc="Standard.StateMachine" uid="af0682b6-d098-4caa-ac34-06ec71b0df4b"/>
+        <COMPID name="livraison" mc="Standard.StateMachine" uid="84b929f6-3a00-4bea-a06e-8a9c9852edac"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

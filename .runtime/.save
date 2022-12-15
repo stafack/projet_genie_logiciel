@@ -1,0 +1,13 @@
+#Thu Dec 15 05:04:44 PST 2022
+org.modelio.app.diagram.editor.OpenedDiagrams4='Diagramme de classe' {d2bae3b8-a8e0-4fb8-839a-b5658aa1030b} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Diagramme de communication ajouter un produit' {4191adec-4069-4287-b508-7fbc388f9d72} Standard.CommunicationDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Diagramme de communication supprimer du panier' {83655cb2-a687-45c3-8804-85e5749a3ff5} Standard.CommunicationDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/TKV/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme de communication authentification' {b59828fb-c321-4340-8e75-bc8fc46771c3} Standard.CommunicationDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de communication inscription' {b63df12d-6a44-4af7-a315-be279e5d37e8} Standard.CommunicationDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/TKV/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/TKV/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.app.model.search.ui.SearchHistory1=publisher
+org.modelio.app.diagram.editor.OpenedDiagrams6='Diagramme de communication supprimer un utilisateur' {6c43d225-4fca-4f72-af16-aa3369a812c9} Standard.CommunicationDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/TKV/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams5='Diagramme d'objet diagramme d'objet' {35a64118-46c7-4cb2-8233-d4427b3ed73f} Standard.ObjectDiagram

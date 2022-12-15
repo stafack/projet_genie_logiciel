@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme de cas d'utilisation" version="4">
+  <OBJECT>
+    <ID name="diagramme de cas d'utilisation" mc="Standard.Package" uid="0d2cfe33-b15d-4bc9-a4ec-9c9b8c0bdcb9"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme de cas d'utilisation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="gerer panier" mc="Standard.Package" uid="7610e58e-4629-461a-9f4d-f56f5645057c"/>
+        <COMPID name="proceder au paiement" mc="Standard.Package" uid="d010e8b0-7166-4d05-ba11-10460b03f317"/>
+        <COMPID name="gerer produit" mc="Standard.Package" uid="0b9fc82a-8852-47cc-b3f9-adf945d88902"/>
+        <COMPID name="rechercher produit" mc="Standard.Package" uid="03a55a46-bbe9-4f39-a70e-a1787b005274"/>
+        <COMPID name="s'inscrire" mc="Standard.Package" uid="3615cdb4-d0c8-4072-a68e-e781eafba0ed"/>
+        <COMPID name="gerer comptes utilisateurs" mc="Standard.Package" uid="1fa00ea4-4915-4fa2-9ed1-47853e8bf6dd"/>
+        <COMPID name="rechercher produit" mc="Standard.UseCase" uid="acaaa213-fdd6-4983-99d4-258962e14304"/>
+        <COMPID name="gerer panier" mc="Standard.UseCase" uid="141aa6ec-185f-415d-9a71-96728faeeb6e"/>
+        <COMPID name="proceder paiement" mc="Standard.UseCase" uid="45281426-8751-4dd0-89ab-84e47ec8a5ee"/>
+        <COMPID name="gerer produit" mc="Standard.UseCase" uid="3e1bf749-708a-4e90-92fc-7afc0619574b"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="bb26ddde-79ba-4956-9420-6031de110fbe"/>
+        <COMPID name="s'inscrire" mc="Standard.UseCase" uid="80c80527-4a9e-4a8b-9ab6-a91ef15b8f55"/>
+        <COMPID name="gerer comptes utilisateur" mc="Standard.UseCase" uid="8ea6d786-6fb9-4ece-8d1b-f8aa26a74abd"/>
+        <COMPID name="consulter catalogue" mc="Standard.UseCase" uid="ea990858-4cf7-49e8-86eb-19812428920e"/>
+        <COMPID name="administrateur" mc="Standard.Actor" uid="633a50a9-5e19-410d-95c5-e648762ae7d3"/>
+        <COMPID name="client" mc="Standard.Actor" uid="6525adc0-571e-4048-be89-4591a666b5a4"/>
+        <COMPID name="visiteur" mc="Standard.Actor" uid="36869b55-3a8d-4fc6-b3a3-1fe7a2b2bbcc"/>
+        <COMPID name="vendeur" mc="Standard.Actor" uid="8786a3d7-ea0e-460c-9a3e-c2f0848730e8"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation diagramme de cas d'utilisation" mc="Standard.UseCaseDiagram" uid="29cd72a0-79a4-4e9c-a555-b1d5df811ea0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

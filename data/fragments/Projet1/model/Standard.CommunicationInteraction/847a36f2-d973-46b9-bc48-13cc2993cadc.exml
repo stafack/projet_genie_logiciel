@@ -1,0 +1,276 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Communication authentification" version="4">
+  <OBJECT>
+    <ID name="Communication authentification" mc="Standard.CommunicationInteraction" uid="847a36f2-d973-46b9-bc48-13cc2993cadc"/>
+    <PID name="diagramme de communication" mc="Standard.Package" uid="617c78c9-c399-47f5-9660-11dcce3e2564"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Communication authentification]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="interface" mc="Standard.CommunicationNode" uid="03df2a15-1592-4233-8bdb-8a50ef634efb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[interface]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="remplissage du formulaire" mc="Standard.CommunicationChannel" uid="96187377-9b78-42b9-818b-e17cef45998a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[remplissage du formulaire]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="EndToStartMessage">
+                    <OBJECT>
+                      <ID name="3 :" mc="Standard.CommunicationMessage" uid="7f1cd51c-5be2-4903-9e39-290350a37070"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[3 :]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="user" mc="Standard.CommunicationNode" uid="be0bbd6b-6352-453a-960c-c9da0376f5ea"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name=": verification des donnees" mc="Standard.CommunicationChannel" uid="4732998a-36d4-40ca-b596-84e4f75daf7a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[: verification des donnees]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="4" mc="Standard.CommunicationMessage" uid="1dc94ee0-9cb4-413c-8b0a-3829bb92da66"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[4]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="controleur/systeme" mc="Standard.CommunicationNode" uid="e4e904e1-bd7a-419f-8a87-06f969159f21"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="controleur/systeme" mc="Standard.CommunicationNode" uid="e4e904e1-bd7a-419f-8a87-06f969159f21"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[controleur/systeme]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name=": generation formulaire d'authentification" mc="Standard.CommunicationChannel" uid="d84806e9-7f4b-4c67-a9db-34f81017d6af"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[: generation formulaire d'authentification]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="2" mc="Standard.CommunicationMessage" uid="6f49a166-0af9-4275-a765-56494be55e8c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[2]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="interface" mc="Standard.CommunicationNode" uid="03df2a15-1592-4233-8bdb-8a50ef634efb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name=": envoi de la requete" mc="Standard.CommunicationChannel" uid="7681f02b-9008-494a-958c-d1a43275f1b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[: envoi de la requete]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="5" mc="Standard.CommunicationMessage" uid="9031390e-9f9f-4de7-9841-ab54ce047b32"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[5]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="base de donnée" mc="Standard.CommunicationNode" uid="8cb064ce-5215-44a4-95e0-7d609dab9cbd"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Authentification Reussie" mc="Standard.CommunicationChannel" uid="a2387de4-3326-41cf-b996-d9e422bbc0dc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Authentification Reussie]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="7 :" mc="Standard.CommunicationMessage" uid="952daa1d-490e-4093-9c51-0d5149538b0b"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[7 :]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="interface" mc="Standard.CommunicationNode" uid="03df2a15-1592-4233-8bdb-8a50ef634efb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="base de donnée" mc="Standard.CommunicationNode" uid="8cb064ce-5215-44a4-95e0-7d609dab9cbd"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[base de donnée]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="[si utilisteur existant ]Utillisateur existant" mc="Standard.CommunicationChannel" uid="9b9d2ea5-b4ea-45ff-a60f-697574683df0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[[si utilisteur existant ]Utillisateur existant]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="6 :" mc="Standard.CommunicationMessage" uid="e347f024-a4b1-48e8-807c-61943a71cb2e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[6 :]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="controleur/systeme" mc="Standard.CommunicationNode" uid="e4e904e1-bd7a-419f-8a87-06f969159f21"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="user" mc="Standard.CommunicationNode" uid="be0bbd6b-6352-453a-960c-c9da0376f5ea"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[user]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="user" mc="Standard.Instance" uid="12d4b111-5b2a-4166-b447-643a77d603ff"/>
+              </REFOBJ>
+            </LINK>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name=": demande d'authentification" mc="Standard.CommunicationChannel" uid="54f36b78-af69-4453-9432-d64ae23ad9e3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[: demande d'authentification]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="1" mc="Standard.CommunicationMessage" uid="9e3ef4ce-7744-48eb-8462-20bd7a47c52c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="controleur/systeme" mc="Standard.CommunicationNode" uid="e4e904e1-bd7a-419f-8a87-06f969159f21"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="f885162f-887c-413a-8514-78a015b76d64"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de communication authentification" mc="Standard.CommunicationDiagram" uid="b59828fb-c321-4340-8e75-bc8fc46771c3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

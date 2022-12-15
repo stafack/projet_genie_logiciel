@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme de communication" version="4">
+  <OBJECT>
+    <ID name="diagramme de communication" mc="Standard.Package" uid="617c78c9-c399-47f5-9660-11dcce3e2564"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme de communication]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="communication inscription" mc="Standard.CommunicationInteraction" uid="833f779c-7bd2-4e8c-9045-f86c71157c25"/>
+        <COMPID name="Communication authentification" mc="Standard.CommunicationInteraction" uid="847a36f2-d973-46b9-bc48-13cc2993cadc"/>
+        <COMPID name="Communication supprimer du panier" mc="Standard.CommunicationInteraction" uid="ba1b9369-2524-4733-adc3-b1ad612dff9d"/>
+        <COMPID name="Communication ajouter au panier" mc="Standard.CommunicationInteraction" uid="f7363b2d-ffc3-4cd7-800c-a5c8f1ec025e"/>
+        <COMPID name="Communication ajouter produit" mc="Standard.CommunicationInteraction" uid="9c1734e0-0cb4-4ad3-8e06-b834c1febb42"/>
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="24a9e118-5ead-4cf5-8bd8-b5e09eb3f192"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

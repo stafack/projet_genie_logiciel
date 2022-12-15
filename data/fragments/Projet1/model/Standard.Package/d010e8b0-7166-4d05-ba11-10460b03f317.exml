@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="proceder au paiement" version="4">
+  <OBJECT>
+    <ID name="proceder au paiement" mc="Standard.Package" uid="d010e8b0-7166-4d05-ba11-10460b03f317"/>
+    <PID name="diagramme de cas d'utilisation" mc="Standard.Package" uid="0d2cfe33-b15d-4bc9-a4ec-9c9b8c0bdcb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[proceder au paiement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="proceder au paiement" mc="Standard.UseCase" uid="7fcf8377-33b2-479f-936a-b1e8485c6eb8"/>
+        <COMPID name="client" mc="Standard.Actor" uid="846fb2ca-8e04-4f5c-9f7b-cef27d42432e"/>
+        <COMPID name="paiement carte visa" mc="Standard.UseCase" uid="852db466-cb07-45d3-91ca-be102cabee84"/>
+        <COMPID name="s'authentifier" mc="Standard.UseCase" uid="6d1f0e27-c814-4855-83a5-b84eabced07d"/>
+        <COMPID name="paiement comptant" mc="Standard.UseCase" uid="b14f49a9-27f2-4f24-825e-e8039391b870"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation commander" mc="Standard.UseCaseDiagram" uid="02655e36-0cd6-424b-b303-12609f2fff7d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

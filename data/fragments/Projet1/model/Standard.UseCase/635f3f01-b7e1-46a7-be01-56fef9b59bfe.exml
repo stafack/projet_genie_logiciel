@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gerer comptes utilisateurs" version="4">
+  <OBJECT>
+    <ID name="gerer comptes utilisateurs" mc="Standard.UseCase" uid="635f3f01-b7e1-46a7-be01-56fef9b59bfe"/>
+    <PID name="gerer comptes utilisateurs" mc="Standard.Package" uid="1fa00ea4-4915-4fa2-9ed1-47853e8bf6dd"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gerer comptes utilisateurs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="9065890f-0e0a-48c7-8a20-8ce771bda622"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="authentification" mc="Standard.UseCase" uid="62ca3ff3-f59c-4297-bd69-d74b78f34d6c"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="bcc4d2e4-6a38-4d46-89f2-a77b574be946"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[	° Cas d'utilisation " supprimer un compte "
+
+ - Le systeme affiche la liste des compes utilisateur (client , vendeur )
+-  L'administrateur selectionne le compte a supprimer et valide 
+-  Le systeme supprime le\les comptes desirés dans la BD et fait une mise a jour
+
+	° Cas d'utilisation " ajouter un compte "
+
+- Le systeme affiche un formulaire d'ajout de compte utilisateur
+- L'administrateur entre les informations sur l'utilisateur et valide
+- Le systeme ajoute l'utilisateur dans la BD et fait une mise a  jour de la plate-forme
+
+	° Cas d'utilisation " modifier un compte "
+
+- Le systeme affiche un formulaire de modification du compte utilisateur
+- L'administrateur entre les nouvelles valeurs et valide
+- Le systeme modifie les informations du compte et fait une mise a jour]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="0ba6835d-e623-4091-9791-3d52999db30d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- impossible d'ajouter un compte qui existe deja
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d4c3414e-5d84-4c2f-9b10-9cc97f88b9df"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- S'authentifier]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="135721cb-27e9-4d60-8514-c5c275f8aca4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- envoie d'un message de succes ou d'echec]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

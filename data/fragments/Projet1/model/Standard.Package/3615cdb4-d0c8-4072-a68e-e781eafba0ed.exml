@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="S'inscrire" version="4">
+  <OBJECT>
+    <ID name="S'inscrire" mc="Standard.Package" uid="3615cdb4-d0c8-4072-a68e-e781eafba0ed"/>
+    <PID name="diagramme de cas d'utilisation" mc="Standard.Package" uid="0d2cfe33-b15d-4bc9-a4ec-9c9b8c0bdcb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[S'inscrire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="s'inscrire" mc="Standard.UseCase" uid="4254ab4d-93be-4ef2-b76a-e94d23838fa7"/>
+        <COMPID name="visiteur" mc="Standard.Actor" uid="cbc41855-f9e2-42b9-aa18-6a80447ff2a3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="cas d'utilisation s'inscrire" mc="Standard.UseCaseDiagram" uid="dbef8283-568f-405c-b0db-6fe847053217"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

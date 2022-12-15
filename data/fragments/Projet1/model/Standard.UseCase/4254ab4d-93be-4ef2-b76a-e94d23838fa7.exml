@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="s'inscrire" version="4">
+  <OBJECT>
+    <ID name="s'inscrire" mc="Standard.UseCase" uid="4254ab4d-93be-4ef2-b76a-e94d23838fa7"/>
+    <PID name="s'inscrire" mc="Standard.Package" uid="3615cdb4-d0c8-4072-a68e-e781eafba0ed"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[s'inscrire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="6ee3277f-6ec5-42d0-825d-a14bed7f187d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1. Le systeme affiche le formulaire d'inscription
+
+2. Le visiteur entre ses informations personnelles et valide [E1]
+
+3. Le systeme ajoute le visiteur dans la BD et effectu une mise a jour
+
+E1: e-mail  valide]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5930fdb2-7c66-4825-8c9a-e2abce9dd3e3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- Avoir une adresse e-mail valide
+
+- Le nom d'utilisateur doit etre innexistant dans la BD
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="7900de55-b85b-44d9-833d-addfb8a6118f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- Acceder au site
+- Remplir les champs du formulaire]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d365e09d-41b4-49cb-b490-ec570357a7c3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- Message d'echec ou de succes d'inscription
+- Creation du compte et mise a jour de la Base de Donnée]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

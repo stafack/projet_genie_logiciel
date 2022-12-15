@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gerer comptes utilisateurs" version="4">
+  <OBJECT>
+    <ID name="gerer comptes utilisateurs" mc="Standard.Package" uid="1fa00ea4-4915-4fa2-9ed1-47853e8bf6dd"/>
+    <PID name="diagramme de cas d'utilisation" mc="Standard.Package" uid="0d2cfe33-b15d-4bc9-a4ec-9c9b8c0bdcb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gerer comptes utilisateurs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="gerer comptes utilisateurs" mc="Standard.UseCase" uid="635f3f01-b7e1-46a7-be01-56fef9b59bfe"/>
+        <COMPID name="ajouter compte" mc="Standard.UseCase" uid="317a6a9a-b43d-471e-8815-ad6bf9c58afa"/>
+        <COMPID name="supprimer compte" mc="Standard.UseCase" uid="aae7fca7-fe2a-4c5d-8276-852848fbbb65"/>
+        <COMPID name="modifier compte" mc="Standard.UseCase" uid="2278cfed-2383-45ba-9feb-4c9eb4f096ca"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="62ca3ff3-f59c-4297-bd69-d74b78f34d6c"/>
+        <COMPID name="administrateur" mc="Standard.Actor" uid="f0488042-be5f-4b7b-aa99-02fe7c443075"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation gerer comptes utilisateurs" mc="Standard.UseCaseDiagram" uid="68b6f173-4375-44a7-af50-3e9a12852e01"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

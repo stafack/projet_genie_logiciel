@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramme de séquence paiement" version="4">
+  <OBJECT>
+    <ID name="Diagramme de séquence paiement" mc="Standard.SequenceDiagram" uid="bb489c2a-dfa6-4913-89e1-f7c6d33463e0"/>
+    <PID name="paiement" mc="Standard.Interaction" uid="121cfa9d-10e8-4b18-baec-fe46cee63447"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9tO20AQ/ZWV37NJcJQSyQRBjCKEIShpK/GExt5JunQv6e4a4k/qd/THuo4dIKGJXAmVlz7taGbPzJmZM9HpSgryiMZyrU6CLu0E5HQYTdIHzBzhzLsC4oolngTaLKjUDAXXNJeCWvyRo8qQcVgYkNQbThuKAiUqZ9/Ex3JWe+LKExAJD9rcP1fvBMPo1uglGlcQBdIXFVDo3MXgwMe+gsixZqNyIYL2MGpvAG+gM1cIDLZ6OfpTLxt+tvxvaaYN0grbgN8IbAYM2abYxcpNcd6wyo1PUSMJrlycXnqOa7M0riskCelqp9F21dKh5g0KcMg8l525XZcu8lh6yhGBYmAY3dkMSdPe8SA7ghabQ7/VG3TD1vEAu635p6zPwrDXD7FzePoCrLtS+kklkKLYITFzhqtFMKzLSSQMif31syJBlsDXGoraa9DBPrXASzXScqktd35Leyo1SDX6xgUzWGZIuC2nWz97EQlX323z7+eL2MCTp5NAgWZbmeEhZT6fFKvwlooyg7+orYT/5pz+DvXhOuRsn/bGNDm7u5jen5+NrsbTyZeb+H1E0uA6X6/tRUCv5ND7L4ePksPnye1762Bv6DdhJ54P]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[Diagramme de séquence paiement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="ead1dfb6-eb6f-4162-a8b5-119426304c1a"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

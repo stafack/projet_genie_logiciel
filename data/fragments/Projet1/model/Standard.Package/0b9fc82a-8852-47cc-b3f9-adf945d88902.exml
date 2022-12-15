@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gerer produit" version="4">
+  <OBJECT>
+    <ID name="Gerer produit" mc="Standard.Package" uid="0b9fc82a-8852-47cc-b3f9-adf945d88902"/>
+    <PID name="diagramme de cas d'utilisation" mc="Standard.Package" uid="0d2cfe33-b15d-4bc9-a4ec-9c9b8c0bdcb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Gerer produit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="vendeur" mc="Standard.Actor" uid="9d020acf-1f30-4b6d-8c69-1d40baf9cd70"/>
+        <COMPID name="gerer produit" mc="Standard.UseCase" uid="58b8cdc2-fdd6-4bce-8f3f-0e7bd12b8445"/>
+        <COMPID name="s'authentifier" mc="Standard.UseCase" uid="42047fd5-ede1-4c2a-9231-0836c70d5c4e"/>
+        <COMPID name="chercher produit" mc="Standard.UseCase" uid="784add71-90f3-4775-81cf-6aee7677108c"/>
+        <COMPID name="ajouter produit" mc="Standard.UseCase" uid="59d30ff2-b720-4afa-9a08-8dc0f62d60df"/>
+        <COMPID name="modifier produit" mc="Standard.UseCase" uid="c4bb775a-1680-42d3-95bc-1f5f719e00bc"/>
+        <COMPID name="supprimer produit" mc="Standard.UseCase" uid="da26e2c1-0a54-4ad1-ae6a-96aa850f2886"/>
+        <COMPID name="consulter liste produit" mc="Standard.UseCase" uid="8b83b37e-d891-466d-99f3-ba8ed43fa0d1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="cas d'utilisation gerer produit" mc="Standard.UseCaseDiagram" uid="53e9c1a0-d904-4960-ab31-99b72ee8742f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

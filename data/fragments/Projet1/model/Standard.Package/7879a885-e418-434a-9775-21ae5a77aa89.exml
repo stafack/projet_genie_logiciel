@@ -1,0 +1,1551 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramme d'objet" version="4">
+  <OBJECT>
+    <ID name="diagramme d'objet" mc="Standard.Package" uid="7879a885-e418-434a-9775-21ae5a77aa89"/>
+    <PID name="Projet1" mc="Standard.Project" uid="18d9ddfb-76f9-439d-9651-5cb3bd602ec5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramme d'objet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID name="admin1" mc="Standard.Instance" uid="d243e3ce-a83c-4c7b-bf4e-c69f983c632a"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[admin1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <OBJECT>
+                <ID name="livraison1" mc="Standard.LinkEnd" uid="86cc02e8-14e3-4cad-b38a-c2cbc3c66e1e"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[livraison1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="ca62ead7-864e-4790-a0e0-6f137f7a43cc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="livraison1" mc="Standard.Instance" uid="fc06c4a8-3559-4c16-8f27-6d864d5fe4fc"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="e032c8dd-82fc-4254-8e84-71502de796fb"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="ca62ead7-864e-4790-a0e0-6f137f7a43cc"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="livraison1" mc="Standard.LinkEnd" uid="86cc02e8-14e3-4cad-b38a-c2cbc3c66e1e"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="vendeur1" mc="Standard.LinkEnd" uid="e48fa43c-38d9-44a4-a1da-0d44ed062d09"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[vendeur1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="85ad8dc6-a783-4e1d-a3d7-6eb37dfe52d5"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="vendeur1" mc="Standard.Instance" uid="355df7f5-85d2-4ea8-8a1d-02733af5aebc"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="2e314733-6c3c-4e6c-bb99-8284879d557d"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="85ad8dc6-a783-4e1d-a3d7-6eb37dfe52d5"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="vendeur1" mc="Standard.LinkEnd" uid="e48fa43c-38d9-44a4-a1da-0d44ed062d09"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="client1" mc="Standard.LinkEnd" uid="615df9b0-cb5a-42af-8951-88f271accbad"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[client1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="48a25557-4960-4f8d-8480-8af8f1bacd48"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="client1" mc="Standard.Instance" uid="ddf8163b-600b-4257-b293-9aff47b2829f"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="84d3733b-7b98-4784-956f-5b7b94443bc2"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="48a25557-4960-4f8d-8480-8af8f1bacd48"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="client1" mc="Standard.LinkEnd" uid="615df9b0-cb5a-42af-8951-88f271accbad"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="Admin" mc="Standard.Class" uid="d47f5b85-c9d2-4615-8983-0b58b9acdd85"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="23fa0a44-aa3b-4883-883e-900d0295ac0d"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[ADM1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idadmin" mc="Standard.Attribute" uid="d376901f-d282-414b-99a4-df1fb0a1da99"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="2a0866ff-aa40-4708-b6c8-ceba6f4342c6"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[fonkou]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Nom" mc="Standard.Attribute" uid="cb8362bb-b03c-4442-9cd1-451c7a84c4fb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="4d283d7f-3b36-48f0-927b-2a60bb56b033"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[rick]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Prenom" mc="Standard.Attribute" uid="5a56af34-211a-483c-8fe9-3d0b28dce02c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink3" mc="Standard.AttributeLink" uid="bb107405-62d4-4785-b2b2-7268f662c5ef"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[bastos]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink3]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Adresse" mc="Standard.Attribute" uid="b57f4533-190a-41bc-8022-368a77261edf"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink4" mc="Standard.AttributeLink" uid="4639f6b6-9880-447d-b270-3939f9bbd0ba"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[654455667]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink4]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Telephone" mc="Standard.Attribute" uid="7ba31329-33db-4aa5-a03c-1f32dc17281f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink5" mc="Standard.AttributeLink" uid="fdbe289c-16d1-4a0c-bb6d-95bcfa4696dd"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[M]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink5]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Sexe" mc="Standard.Attribute" uid="59ec8bcb-bf21-4ac4-b53e-000cb2b06604"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink6" mc="Standard.AttributeLink" uid="9226c581-d87c-45dc-8906-445bf1d1d322"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[MS12]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink6]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Password" mc="Standard.Attribute" uid="4a8c0502-543a-49ed-aff0-10ebe14550a9"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink7" mc="Standard.AttributeLink" uid="3c0eb676-0649-4c5e-99dc-15d7b1f68f5c"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[parfait@gmail.com]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink7]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Mail" mc="Standard.Attribute" uid="673d42c4-485c-4f88-9782-66d4ab0648a6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink8" mc="Standard.AttributeLink" uid="0c1f6257-1188-4c8f-ad4e-3bb120cb0683"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[yaounde]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink8]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Ville" mc="Standard.Attribute" uid="58854661-6d14-47d3-b7bf-69b6fe89af26"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="client1" mc="Standard.Instance" uid="ddf8163b-600b-4257-b293-9aff47b2829f"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[client1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <OBJECT>
+                <ID name="commande1" mc="Standard.LinkEnd" uid="b09f068c-dbac-4b7b-82ad-f14d227ed234"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[commande1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="3d0c811b-8e7b-411b-bc46-7245641339e5"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="commande1" mc="Standard.Instance" uid="7c302647-c462-4255-b8af-96fa8716633d"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="7f63c442-d0a4-444f-9c7e-26d523356ab6"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="3d0c811b-8e7b-411b-bc46-7245641339e5"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="commande1" mc="Standard.LinkEnd" uid="b09f068c-dbac-4b7b-82ad-f14d227ed234"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="501fd07b-a8d9-4ade-9564-4717dc446516"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<p><strong>yii</strong></p>
+]]></ATT>
+                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="Client" mc="Standard.Class" uid="03c54116-de97-4e2e-a0ab-2b5f807cf234"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="6ce2d921-1a8c-47e0-9862-e4041f3f08bb"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[CL1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idclient" mc="Standard.Attribute" uid="1beddec1-4498-475e-9f62-9fb381a4d950"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="acc8ac26-6f8b-49ef-a1c0-4042aa3c6df8"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[fokou]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Nom" mc="Standard.Attribute" uid="cb8362bb-b03c-4442-9cd1-451c7a84c4fb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="ffdc0c3a-6e0d-4554-a1b5-391a97fd3867"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[franck]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Prenom" mc="Standard.Attribute" uid="5a56af34-211a-483c-8fe9-3d0b28dce02c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink3" mc="Standard.AttributeLink" uid="40d808ff-9f89-4cf7-88a2-1ab63b5360bf"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[tsinkop]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink3]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Adresse" mc="Standard.Attribute" uid="b57f4533-190a-41bc-8022-368a77261edf"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink4" mc="Standard.AttributeLink" uid="6cfb93e3-bced-4437-869a-a9afc840a3d6"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[654432321]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink4]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Telephone" mc="Standard.Attribute" uid="7ba31329-33db-4aa5-a03c-1f32dc17281f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink5" mc="Standard.AttributeLink" uid="01634946-5211-43d3-a076-de1f4c31fee5"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[M]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink5]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Sexe" mc="Standard.Attribute" uid="59ec8bcb-bf21-4ac4-b53e-000cb2b06604"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink6" mc="Standard.AttributeLink" uid="2289f53c-efd1-4a00-b4b7-6294c8f8f24d"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[franck@gmail.com]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink6]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Mail" mc="Standard.Attribute" uid="673d42c4-485c-4f88-9782-66d4ab0648a6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink7" mc="Standard.AttributeLink" uid="052c7856-7dce-4c6e-abb6-9207c1748ecb"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[douala]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink7]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Ville" mc="Standard.Attribute" uid="58854661-6d14-47d3-b7bf-69b6fe89af26"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="livraison1" mc="Standard.Instance" uid="fc06c4a8-3559-4c16-8f27-6d864d5fe4fc"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[livraison1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Livraison" mc="Standard.Class" uid="c57f3f47-2c05-4f07-9082-ed6dc25def17"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="21416022-8744-42a4-9694-6663ba9bcb9e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Liv1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idliv" mc="Standard.Attribute" uid="1767cf22-cd0a-496f-bfa9-ef672a42d181"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="7dfbc01b-3259-47d5-a757-ac0ec4ca53e8"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[20/01/2022]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dateliv" mc="Standard.Attribute" uid="7d6886db-8a6b-424a-b0a7-084a433e532f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="bca596e0-291a-4920-a416-e03f7de7a3c6"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[boutique]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="modeliv" mc="Standard.Attribute" uid="ea3e1f83-9486-4bd9-b0ec-675f1597bd9a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="panier1" mc="Standard.Instance" uid="81e77799-2e75-4f3a-b490-2cfac20a5ca5"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[panier1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <OBJECT>
+                <ID name="produit1" mc="Standard.LinkEnd" uid="3f5a97bc-e058-44ce-ba0e-17cc34f5dc29"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[produit1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="f8fdaa27-6259-4e94-85b0-c65f86dce840"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="BD" mc="Standard.Instance" uid="0fa2428a-edbb-4859-8bf3-bb0175133f80"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="eab38f88-0ad0-45ef-b3cd-eb033a7c1158"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="f8fdaa27-6259-4e94-85b0-c65f86dce840"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="produit1" mc="Standard.LinkEnd" uid="3f5a97bc-e058-44ce-ba0e-17cc34f5dc29"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="Panier" mc="Standard.Class" uid="4f825194-6660-45ea-9f25-19c2e1fba72c"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="5cec08f0-e406-4ad6-9ae7-c2899ec0cc1f"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Pan1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idpan" mc="Standard.Attribute" uid="9d4d819d-8a38-4d07-8610-15a90e4a8bef"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="faa048c6-0ff5-4108-96c6-d953afc116a5"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[vide]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="etatpan" mc="Standard.Attribute" uid="0166f808-e75e-47db-b411-a4c48ff20f31"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="81402dd2-4bcc-442b-9174-14e5ad1cb43e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[5]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="totalpan" mc="Standard.Attribute" uid="888c65c0-ba5f-4d84-933b-ab0180962ec4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="facture1" mc="Standard.Instance" uid="af1eceaa-39f9-43b8-a32c-4cb5038ba197"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[facture1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Facture" mc="Standard.Class" uid="b1b1a8d2-83e0-40ec-abee-ee7352200592"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="7bf14fcd-4833-4bd7-b90d-804432b07891"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Fact1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idfact" mc="Standard.Attribute" uid="cd43963d-04af-46da-bc13-6fc62d2d3ddd"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="d8f2b841-cf80-4bd5-acd3-76570236a1b0"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[12/12/2002]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="date" mc="Standard.Attribute" uid="5e75a82b-d368-4bca-bef0-b7f66fcb9833"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="afb47ea9-2a7e-47c0-9a7c-3c67891fea91"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2000]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="remise" mc="Standard.Attribute" uid="bfb8d995-71bf-4a97-b1ca-7f2ce8b195e2"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="commande1" mc="Standard.Instance" uid="7c302647-c462-4255-b8af-96fa8716633d"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[commande1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <OBJECT>
+                <ID name="produit1" mc="Standard.LinkEnd" uid="c87fb794-841e-492b-a903-cd8c72505e50"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[produit1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="c015fbb9-5904-4c62-9da4-44d857e714ae"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="BD" mc="Standard.Instance" uid="0fa2428a-edbb-4859-8bf3-bb0175133f80"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="d016a899-2527-4c1d-9159-57894db58763"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="c015fbb9-5904-4c62-9da4-44d857e714ae"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="produit1" mc="Standard.LinkEnd" uid="c87fb794-841e-492b-a903-cd8c72505e50"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="carte1" mc="Standard.LinkEnd" uid="bcb4b1f6-4bec-4bad-9f63-056b260a067d"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[carte1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="75025ad7-0407-4388-932e-3e82ed3366f3"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="carte1" mc="Standard.Instance" uid="33c8ba79-25bc-46a1-847a-c4119a2c67ab"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="4e77f9f5-bdd8-4a83-b4fc-ef92c480b61b"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="75025ad7-0407-4388-932e-3e82ed3366f3"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="carte1" mc="Standard.LinkEnd" uid="bcb4b1f6-4bec-4bad-9f63-056b260a067d"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="facture1" mc="Standard.LinkEnd" uid="98f2ef4d-081f-45c6-91e3-0501dd6ca375"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[facture1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="f0765ebe-f555-4959-adaf-47563216c2f2"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="facture1" mc="Standard.Instance" uid="af1eceaa-39f9-43b8-a32c-4cb5038ba197"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="0ca119eb-5a77-4a4f-bf03-e06f8985bad7"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="f0765ebe-f555-4959-adaf-47563216c2f2"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="facture1" mc="Standard.LinkEnd" uid="98f2ef4d-081f-45c6-91e3-0501dd6ca375"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="Commande" mc="Standard.Class" uid="6fce9501-e376-4438-a043-d896e9e65e7c"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="a4a98284-b364-40cc-9523-9389b8ea8d2d"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idcmd" mc="Standard.Attribute" uid="439852ed-2af8-4d4d-98aa-348e4f28ea74"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="5c90076a-1ea2-41a3-9442-543f4a44504b"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="f9a1a166-035a-4b16-8ecd-955a62aecf61"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Client1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idclient" mc="Standard.Attribute" uid="aa35d703-6cca-49fc-911b-34cbd96e53c7"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="240bb37c-fada-44c8-9511-eb58036cfa00"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Prod1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idprd" mc="Standard.Attribute" uid="5bffa0b0-e06c-4a4d-9913-5488c399b550"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink3" mc="Standard.AttributeLink" uid="fe93998d-16a4-488b-b7fa-70d95a903b49"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[12/01/2022]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink3]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="date" mc="Standard.Attribute" uid="237a6c67-fd91-4703-9c8e-0269cd1ecb61"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink4" mc="Standard.AttributeLink" uid="cc0c4320-31ff-4678-94cd-34210e33ff61"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink4]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="qte" mc="Standard.Attribute" uid="005c4abc-4a7e-4ee6-a7fd-ed6ffe105abd"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink5" mc="Standard.AttributeLink" uid="f7509551-a68e-449d-b302-49462b609a34"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[15000]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink5]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="montant" mc="Standard.Attribute" uid="704e2242-8abd-43ed-a0f4-4ad805e884b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BD" mc="Standard.Instance" uid="0fa2428a-edbb-4859-8bf3-bb0175133f80"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[BD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <OBJECT>
+                <ID name="categorie1" mc="Standard.LinkEnd" uid="d55a691a-cb16-4cdb-b980-96c19c8ae447"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[categorie1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="4eb59b35-f840-4862-8e01-3c55a6783b84"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="categorie1" mc="Standard.Instance" uid="97412ef1-c3a3-496a-8273-90478286da72"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="2c963487-ba44-4673-8904-8ca9cac2d85c"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="4eb59b35-f840-4862-8e01-3c55a6783b84"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="categorie1" mc="Standard.LinkEnd" uid="d55a691a-cb16-4cdb-b980-96c19c8ae447"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="Produit" mc="Standard.Class" uid="167bd9ee-ea3b-4375-ab93-3c129c44d8c7"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="93be945c-50ec-401c-9275-de4cde0b2d5b"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Prod123]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idprod" mc="Standard.Attribute" uid="deaed7c5-1a8f-44e9-991a-aa38d1d82d93"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="0da19f7e-8806-423b-a37f-9ddb578c5ff1"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[chaussure]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nom" mc="Standard.Attribute" uid="77e45614-8e05-4d6d-ae0e-db63ea43bdf7"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="5fd2b50b-859e-44e1-94df-0aae50cb32ae"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[5000]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="prix.u" mc="Standard.Attribute" uid="f43de6ff-f1c5-4499-885a-250f973fb3aa"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink3" mc="Standard.AttributeLink" uid="c296c85d-6d58-488b-9762-95b71d695b10"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[nike rouge 41]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink3]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="description" mc="Standard.Attribute" uid="ba7fd5d5-3bcb-438c-acc3-150c733487cf"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="categorie1" mc="Standard.Instance" uid="97412ef1-c3a3-496a-8273-90478286da72"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[categorie1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Categorie" mc="Standard.Class" uid="6d51bcfb-d67d-4885-b65c-e99afed155d2"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="fe2be1f8-d2b3-4ba2-8ec3-105cd6a70be1"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Cat1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idcat" mc="Standard.Attribute" uid="a222e9d9-d4bf-4474-a9db-95b6e5bc37b2"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="e0bb1f8c-34b7-4cf7-91c4-07de42afeedb"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[10000]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nomcat" mc="Standard.Attribute" uid="ba382960-a665-4ed6-8002-4f4a725125ec"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="carte1" mc="Standard.Instance" uid="33c8ba79-25bc-46a1-847a-c4119a2c67ab"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[carte1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Carte" mc="Standard.Class" uid="4ba402d0-1f59-4b84-811b-61fd784cfd75"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="fd41aed7-0302-437c-8056-bc97177f81ac"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Cart1]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idcart" mc="Standard.Attribute" uid="5c135b3f-ec48-4625-b503-ad18217309f0"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="1044be18-677b-4613-86ad-0631dd3e6488"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[20A32]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="code" mc="Standard.Attribute" uid="e666bb58-32b4-4521-84b3-d1e65d544631"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="4cc39368-33dd-4309-aab4-4c8bef1f02f2"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[AZ21X]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="password" mc="Standard.Attribute" uid="385d7b90-f190-4fe3-99ee-ebbe7e136c2c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink3" mc="Standard.AttributeLink" uid="d580f183-e647-41fb-94be-559ceac8bb86"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[12000]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink3]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="montant" mc="Standard.Attribute" uid="ffc592cb-1420-416e-95de-7c52667890bf"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="vendeur1" mc="Standard.Instance" uid="355df7f5-85d2-4ea8-8a1d-02733af5aebc"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[vendeur1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <OBJECT>
+                <ID name="produit1" mc="Standard.LinkEnd" uid="dd2d1def-db5d-440f-93a5-31f98e613771"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[produit1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="d665543d-56a2-4931-a5e4-018e2b654257"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="BD" mc="Standard.Instance" uid="0fa2428a-edbb-4859-8bf3-bb0175133f80"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="0a3db3ba-b678-4b5f-a72e-93473ec3e71e"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="d665543d-56a2-4931-a5e4-018e2b654257"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="produit1" mc="Standard.LinkEnd" uid="dd2d1def-db5d-440f-93a5-31f98e613771"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="Vendeur" mc="Standard.Class" uid="1e3960c5-ea9c-4ab8-b89b-75948e28787d"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="" mc="Standard.AttributeLink" uid="3d9d01c2-313f-4ea2-9566-b1ca82e84bc9"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[vend1]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="idvendeur" mc="Standard.Attribute" uid="9b29ec9a-c2d6-40a9-a34d-3805f5f36913"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="595a520c-7574-4f6f-a535-7231ca6f43d2"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[donfack]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Nom" mc="Standard.Attribute" uid="cb8362bb-b03c-4442-9cd1-451c7a84c4fb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="4919d5b7-c427-4fd7-a215-0497169f4389"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[junior]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Prenom" mc="Standard.Attribute" uid="5a56af34-211a-483c-8fe9-3d0b28dce02c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink2" mc="Standard.AttributeLink" uid="8c11b541-28e9-4813-9ba2-65c2b1f4f0be"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[foto]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Adresse" mc="Standard.Attribute" uid="b57f4533-190a-41bc-8022-368a77261edf"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink3" mc="Standard.AttributeLink" uid="76d16293-13b8-4bb7-9315-0e2cff5ec00f"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[654545665]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink3]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Telephone" mc="Standard.Attribute" uid="7ba31329-33db-4aa5-a03c-1f32dc17281f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink4" mc="Standard.AttributeLink" uid="a8aad83e-951f-49d9-b50d-de45dd775e3e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[M]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink4]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Sexe" mc="Standard.Attribute" uid="59ec8bcb-bf21-4ac4-b53e-000cb2b06604"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink5" mc="Standard.AttributeLink" uid="49fcf388-3f45-44d7-b830-e6ff251d563b"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1A2A]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink5]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Password" mc="Standard.Attribute" uid="4a8c0502-543a-49ed-aff0-10ebe14550a9"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink6" mc="Standard.AttributeLink" uid="e6267905-ae1c-47ab-bd80-6cbfd3d7925e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[junior@gmail.com]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink6]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Mail" mc="Standard.Attribute" uid="673d42c4-485c-4f88-9782-66d4ab0648a6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink7" mc="Standard.AttributeLink" uid="ac107e74-b5cc-41bf-bc92-3733244cf273"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[dschang]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink7]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="Ville" mc="Standard.Attribute" uid="58854661-6d14-47d3-b7bf-69b6fe89af26"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="visiteur1" mc="Standard.Instance" uid="25972a73-dbae-464f-8e51-5f02315ac7f2"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[visiteur1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="visiteur" mc="Standard.Actor" uid="cbc41855-f9e2-42b9-aa18-6a80447ff2a3"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="490ea116-3ca7-4142-8d84-5be5a851c8c0"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="user" mc="Standard.Instance" uid="12d4b111-5b2a-4166-b447-643a77d603ff"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[user]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Utilisateur" mc="Standard.Class" uid="035308f3-fa03-4492-8c21-baf786bf96fa"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme d'objet diagramme d'objet" mc="Standard.ObjectDiagram" uid="35a64118-46c7-4cb2-8233-d4427b3ed73f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="paiement" version="4">
+  <OBJECT>
+    <ID name="paiement" mc="Standard.Interaction" uid="121cfa9d-10e8-4b18-baec-fe46cee63447"/>
+    <PID name="diagramme de sequence" mc="Standard.Package" uid="fbef79b6-8157-495b-9afa-ae9d3215d2ab"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">true</ATT>
+      <ATT name="Name"><![CDATA[paiement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="41fbafb2-511c-431e-92c6-c7c1aa089e62"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de séquence paiement" mc="Standard.SequenceDiagram" uid="bb489c2a-dfa6-4913-89e1-f7c6d33463e0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

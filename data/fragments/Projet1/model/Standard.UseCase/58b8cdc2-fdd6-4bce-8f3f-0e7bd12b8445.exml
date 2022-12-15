@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gerer produit" version="4">
+  <OBJECT>
+    <ID name="gerer produit" mc="Standard.UseCase" uid="58b8cdc2-fdd6-4bce-8f3f-0e7bd12b8445"/>
+    <PID name="Gerer produit" mc="Standard.Package" uid="0b9fc82a-8852-47cc-b3f9-adf945d88902"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gerer produit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="8a17692b-e085-4578-8f49-471f23c2382e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="s'authentifier" mc="Standard.UseCase" uid="42047fd5-ede1-4c2a-9231-0836c70d5c4e"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8e8d94bf-5174-46e9-8279-c3d5b6fc3592"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Cas d'utilisation " supprimer un produit "
+
+- Le systeme affiche la page liste des produits
+- Le vendeur choisit les produits a supprimer
+- Le systeme supprime le ou les produits desirés
+- Mise ajour de la BD
+
+Cas d'utilisation " modifier un produit "
+
+- Le systeme affiche le formulaire de modification du produit
+- Le vendeur entre les données à modifier[E1]
+- Le systeme modifie le ou les produits dans la BD 
+- Mise ajour de la BD
+
+E1: chaque champ doit etre remplis
+
+Cas d'utilisation " ajouter produit "
+
+- Le systeme affiche le formulaire d'ajout d'un produit
+- Le vendeur ajoute le produit en introduisant les données adequates
+- Le systeme ajoute le produit dans la BD et dans le catalogue 
+- Mise ajour de la BD	]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="68424851-3b1b-4ad2-afe0-7262187fa150"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- On ne peut pas ajouter un produit deja existant
+- On ne peut pas supprimer un produit inexistant
+- tous les champs du formulaire doivent etre requis]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="85f114f5-32f1-48fe-948e-dab3094db4ec"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- Le vendeur doit s'authentifier]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="3d58e11b-717c-43e0-977e-637436854145"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- Message de succes ou d'echec
+- Mise a jour de la BD et du compte vendeur
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

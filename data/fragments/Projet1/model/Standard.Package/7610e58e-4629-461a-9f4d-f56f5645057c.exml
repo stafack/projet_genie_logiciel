@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gerer panier" version="4">
+  <OBJECT>
+    <ID name="Gerer panier" mc="Standard.Package" uid="7610e58e-4629-461a-9f4d-f56f5645057c"/>
+    <PID name="diagramme de cas d'utilisation" mc="Standard.Package" uid="0d2cfe33-b15d-4bc9-a4ec-9c9b8c0bdcb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Gerer panier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="gerer panier" mc="Standard.UseCase" uid="7619580c-262f-42d2-8bda-22c5fedb26ba"/>
+        <COMPID name="client" mc="Standard.Actor" uid="63bafb75-a350-4dea-96ee-04616130cac9"/>
+        <COMPID name="consulter panier" mc="Standard.UseCase" uid="56bcc428-0c29-4b4d-9653-2e12f6c9a2f6"/>
+        <COMPID name="supprimer produit du panier" mc="Standard.UseCase" uid="97f2c55d-f150-4ef5-935a-af97d705705a"/>
+        <COMPID name="authentification" mc="Standard.UseCase" uid="c59ee206-a97d-4977-9c0e-adb12fad59ab"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="cas d'utilisation gerer panier" mc="Standard.UseCaseDiagram" uid="6ecf435d-e854-448b-abfc-b8c376f298cf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
